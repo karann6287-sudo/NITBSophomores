@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/syllabus</loc>
+  </url>
+
+  <!-- Semester 3 -->
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/dsa</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/dsa/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/dsa/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/dsa/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/em-1-lab</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/em-1-lab/experiments</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emec</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emec/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emec/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emec/mini-tests</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emec/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emec-lab</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emec-lab/experiments</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emft</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emft/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emft/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emft/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/emft/mini-tests</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/instrumentation-lab</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/instrumentation-lab/experiments</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/mathematics-3</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/mathematics-3/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/mathematics-3/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/mathematics-3/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/mathematics-3/mini-tests</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/mathematics-3/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/measurement-and-instrumentation</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/measurement-and-instrumentation/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/measurement-and-instrumentation/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/measurement-and-instrumentation/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/measurement-and-instrumentation/mini-tests</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/measurement-and-instrumentation/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/network-analysis</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/network-analysis/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/network-analysis/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/network-analysis/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/network-lab</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester3/network-lab/experiments</loc>
+  </url>
+
+  <!-- Semester 4 -->
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/electronic-devices-and-systems</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/electronic-devices-and-systems/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/electronic-devices-and-systems/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/electronic-devices-and-systems/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/electronic-devices-and-systems/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/electronics-lab</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/electronics-lab/experiments</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/emec-2</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/emec-2/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/emec-2/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/emec-2/mini-tests</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/emec-2/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/emec-2-lab</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/emec-2-lab/experiments</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/fundamentals-of-entrepreneurship</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/fundamentals-of-entrepreneurship/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/fundamentals-of-entrepreneurship/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/fundamentals-of-entrepreneurship/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/generation-of-electrical-power</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/generation-of-electrical-power/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/generation-of-electrical-power/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/generation-of-electrical-power/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/generation-of-electrical-power/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/mathematics-4</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/mathematics-4/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/mathematics-4/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/mathematics-4/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/mathematics-4/mini-tests</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/mathematics-4/notes</loc>
+  </url>
+
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/power-systems</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/power-systems/assignments</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/power-systems/end-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/power-systems/mid-terms</loc>
+  </url>
+  <url>
+    <loc>https://nitbsophomores.netlify.app/subjects/semester4/power-systems/notes</loc>
+  </url>
+
+</urlset>
