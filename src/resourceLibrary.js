@@ -11,19 +11,30 @@ const preferredTermDefinitions = [
   { slug: 'experiments', label: 'Experiments' },
 ]
 
-function getFiles(semester, subjectSlug, termSlug) {
+function getFiles(branch, semester, subjectSlug, termSlug) {
   return pdfData.subjects.filter(
     (file) =>
+      file.branch === branch &&
       file.semester === semester &&
       file.subject === subjectSlug &&
       file.term === termSlug
   )
 }
 
-export function getSubjectResourceTerms(semester, subjectSlug) {
+export function getSubjectResourceTerms(
+  branch,
+  semester,
+  subjectSlug
+) {
   return preferredTermDefinitions
     .filter(
-      (term) => getFiles(semester, subjectSlug, term.slug).length > 0
+      (term) =>
+        getFiles(
+          branch,
+          semester,
+          subjectSlug,
+          term.slug
+        ).length > 0
     )
     .map((term) => ({
       slug: term.slug,
@@ -33,19 +44,26 @@ export function getSubjectResourceTerms(semester, subjectSlug) {
 }
 
 export function getSubjectResourceTerm(
+  branch,
   semester,
   subjectSlug,
   termSlug
 ) {
-  const files = getFiles(semester, subjectSlug, termSlug)
+  const files = getFiles(
+    branch,
+    semester,
+    subjectSlug,
+    termSlug
+  )
 
   if (files.length === 0) {
     return null
   }
 
   const term =
-    preferredTermDefinitions.find((t) => t.slug === termSlug) ??
-    {
+    preferredTermDefinitions.find(
+      (t) => t.slug === termSlug
+    ) ?? {
       slug: termSlug,
       label: termSlug,
     }
@@ -65,7 +83,9 @@ export function getSubjectResourceTerm(
 export function getSubjectFileTitle(file) {
   return file.fileName
 }
+
 export function getSubjectFile(
+  branch,
   semester,
   subject,
   term,
@@ -73,6 +93,7 @@ export function getSubjectFile(
 ) {
   return pdfData.subjects.find(
     (file) =>
+      file.branch === branch &&
       file.semester === semester &&
       file.subject === subject &&
       file.term === term &&

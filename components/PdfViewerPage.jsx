@@ -6,7 +6,13 @@ import { getSubjectResourceTerm } from '../src/resourceLibrary.js'
 export default function PdfViewerPage({ theme }) {
   const isDark = theme === 'dark'
 
-  const { semester, subjectSlug, termSlug, fileIndex } = useParams()
+  const {
+    branch,
+    semester,
+    subjectSlug,
+    termSlug,
+    fileIndex,
+  } = useParams()
 
   const subject = useMemo(
     () => subjectData[semester]?.[subjectSlug],
@@ -17,11 +23,18 @@ export default function PdfViewerPage({ theme }) {
     if (!subject) return null
 
     return getSubjectResourceTerm(
+      branch,
       semester,
       subjectSlug,
       termSlug
     )
-  }, [semester, subjectSlug, termSlug, subject])
+  }, [
+    branch,
+    semester,
+    subjectSlug,
+    termSlug,
+    subject,
+  ])
 
   if (!subject || !term) {
     return (
@@ -31,15 +44,8 @@ export default function PdfViewerPage({ theme }) {
     )
   }
 
-  const index = Number(fileIndex);
-
-console.log("fileIndex:", fileIndex);
-console.log("index:", index);
-console.log("term:", term);
-
-const file = term?.files?.[index];
-
-console.log("file:", file);
+  const index = Number(fileIndex)
+  const file = term?.files?.[index]
 
   if (!file) {
     return (
@@ -50,7 +56,10 @@ console.log("file:", file);
   }
 
   // Convert Google Drive share link to preview link
-  const previewUrl = file.url.replace('/view?usp=sharing', '/preview')
+  const previewUrl = file.url.replace(
+    '/view?usp=sharing',
+    '/preview'
+  )
 
   return (
     <main
@@ -77,13 +86,13 @@ console.log("file:", file);
           </p>
 
           <h1 className="mt-2 text-2xl font-bold">
-            {file.title}
+            {file.fileName}
           </h1>
         </div>
 
         <div className="flex gap-3">
           <Link
-            to={`/subjects/${semester}/${subjectSlug}/${termSlug}`}
+            to={`/subjects/${branch}/${semester}/${subjectSlug}/${termSlug}`}
             className="rounded-full bg-sky-600 px-5 py-3 text-white hover:bg-sky-500"
           >
             Back
@@ -101,7 +110,7 @@ console.log("file:", file);
       </div>
 
       <iframe
-        title={file.title}
+        title={file.fileName}
         src={previewUrl}
         className="w-full h-[calc(100vh-88px)]"
         allow="autoplay"
