@@ -1,7 +1,9 @@
 {
   "syllabus": {
-    "title": "Electrical Engineering Syllabus",
-    "url": "https://drive.google.com/file/d/1nKVIQ0qr41M3JtxypXxCpd7axp9IJ9GD/view?usp=sharing"
+    "ee": {
+      "title": "Electrical Engineering Syllabus",
+      "url": "https://drive.google.com/file/d/1nKVIQ0qr41M3JtxypXxCpd7axp9IJ9GD/view?usp=sharing"
+    }
   },
   "subjects": [
     {
@@ -9,301 +11,344 @@
       "subject": "emec",
       "term": "end-terms",
       "title": "End Term 2022-2023",
-      "url": "https://drive.google.com/file/d/1pcFRH4_TiahQbAPz_N7RB9r0HUb8HkFW/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1pcFRH4_TiahQbAPz_N7RB9r0HUb8HkFW/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1FHGTnlIQ9AtEwOPHJP85q9ZxCYY217bm/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1FHGTnlIQ9AtEwOPHJP85q9ZxCYY217bm/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/1O1iMmPIKbgmudMHXaKqGF4j6KastdbIQ/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1O1iMmPIKbgmudMHXaKqGF4j6KastdbIQ/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1rUDoil_8ejsNwlG9YBTdJlAVMFDK8qry/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1rUDoil_8ejsNwlG9YBTdJlAVMFDK8qry/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1OsB6FtNIHhsjQ_s7mLST7Bhve_A-cHC6/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1OsB6FtNIHhsjQ_s7mLST7Bhve_A-cHC6/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1aZ46zePwt4O-046CH3llwgk0LoMyV3AD/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1aZ46zePwt4O-046CH3llwgk0LoMyV3AD/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "mid-terms",
       "title": "Mid Term 2026",
-      "url": "https://drive.google.com/file/d/1BzH6nNXcg5FhT2zw_xaZztceBT3jG_hx/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1BzH6nNXcg5FhT2zw_xaZztceBT3jG_hx/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "mini-tests",
       "title": "Mini Test 2026",
-      "url": "https://drive.google.com/file/d/1BuuSE-3wCfh7JxxUSvUrf7IdtTuACoM2/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1BuuSE-3wCfh7JxxUSvUrf7IdtTuACoM2/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "mini-tests",
       "title": "Mini Test 2024",
-      "url": "https://drive.google.com/file/d/1C6SgiX2vEWlOZKJq_BWC1n7_Yy2axB2I/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1C6SgiX2vEWlOZKJq_BWC1n7_Yy2axB2I/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "notes",
       "title": "Three Phase Questions",
-      "url": "https://drive.google.com/file/d/1u9V5jbTBmaF9168XAz-flG9YAiAkVNHO/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1u9V5jbTBmaF9168XAz-flG9YAiAkVNHO/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "notes",
       "title": "EMEC Full Notes",
-      "url": "https://drive.google.com/file/d/1d-nRVh13Km2YdPy7sIZlE4xhYW8z0yDF/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1d-nRVh13Km2YdPy7sIZlE4xhYW8z0yDF/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec",
       "term": "notes",
       "title": "EMEC Syllabus",
-      "url": "https://drive.google.com/file/d/1xb9gXYqomEAohZUqInkf1bKLNahx4yaE/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1xb9gXYqomEAohZUqInkf1bKLNahx4yaE/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/1kEmqiDI30BSk0NgO4SHZJ6A_0HXPYsBp/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1kEmqiDI30BSk0NgO4SHZJ6A_0HXPYsBp/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "assignments",
       "title": "Assignment 1",
-      "url": "https://drive.google.com/file/d/1cyA_gCinuZQW09DHsL-haF2qjsiyY4Vv/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1cyA_gCinuZQW09DHsL-haF2qjsiyY4Vv/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "assignments",
       "title": "Assignment 2",
-      "url": "https://drive.google.com/file/d/1pruYwaBmFA1_eeMnFv_DbeNjnXLrIFYo/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1pruYwaBmFA1_eeMnFv_DbeNjnXLrIFYo/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "assignments",
       "title": "Assignment 3",
-      "url": "https://drive.google.com/file/d/18BZPsDjX7Ta3x124PWQF91ckUXJ7CqK4/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/18BZPsDjX7Ta3x124PWQF91ckUXJ7CqK4/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "assignments",
       "title": "Assignment 4 (EE1)",
-      "url": "https://drive.google.com/file/d/1lXQqpFKs6Duaedzx_RU2-I3n3Bd9o3-K/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1lXQqpFKs6Duaedzx_RU2-I3n3Bd9o3-K/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Graphs in Data Structures",
-      "url": "https://drive.google.com/file/d/13eG_az-UDaESbj4YAAbEX1-HZHbZH2bY/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/13eG_az-UDaESbj4YAAbEX1-HZHbZH2bY/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Binary Tree in Data Structure",
-      "url": "https://drive.google.com/file/d/1vOkH4ULGBKPnseyII002Hfb8E9bpQg-h/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1vOkH4ULGBKPnseyII002Hfb8E9bpQg-h/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Expression using Stack",
-      "url": "https://drive.google.com/file/d/1FP1HJ_85QrEXwlLoM1FS_5D2dbyNnj3l/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1FP1HJ_85QrEXwlLoM1FS_5D2dbyNnj3l/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Trees",
-      "url": "https://drive.google.com/file/d/1-4bytcbcYN8HnBlq-1VnGb5GO13gKRa1/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1-4bytcbcYN8HnBlq-1VnGb5GO13gKRa1/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Time Complexity",
-      "url": "https://drive.google.com/file/d/1gh_XDeXb3ViXKU1XMcxGGRcJSi1_rpkh/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1gh_XDeXb3ViXKU1XMcxGGRcJSi1_rpkh/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Stack",
-      "url": "https://drive.google.com/file/d/105mJZ6YxExU9kCUl8XiBxMZzunQHcFYd/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/105mJZ6YxExU9kCUl8XiBxMZzunQHcFYd/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Queues",
-      "url": "https://drive.google.com/file/d/1j71pdEofdyea9Ct_ATI0Psxj9T1uGET7/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1j71pdEofdyea9Ct_ATI0Psxj9T1uGET7/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Linked-List 1",
-      "url": "https://drive.google.com/file/d/1ECU3AzRKWctuty3K7B9vUwwZWSG2QR5v/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ECU3AzRKWctuty3K7B9vUwwZWSG2QR5v/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Linked-List 2",
-      "url": "https://drive.google.com/file/d/1OlXmZ5t27nbg1E-_tJfE_yhTdp3TEVyj/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1OlXmZ5t27nbg1E-_tJfE_yhTdp3TEVyj/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Linked-List 3",
-      "url": "https://drive.google.com/file/d/1TPGdw9yhpK4bBBvzxp7DnttUmIPhK1iu/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1TPGdw9yhpK4bBBvzxp7DnttUmIPhK1iu/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "Graphs",
-      "url": "https://drive.google.com/file/d/1wAvZgQweL8jx5uxrOPrltvuJXIC7qy8N/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1wAvZgQweL8jx5uxrOPrltvuJXIC7qy8N/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "DSA Lecture 1",
-      "url": "https://drive.google.com/file/d/1DD51T-JTSvThaD1kfEizGp_-XvRb5fv4/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1DD51T-JTSvThaD1kfEizGp_-XvRb5fv4/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "dsa",
       "term": "notes",
       "title": "DSA Lecture 2",
-      "url": "https://drive.google.com/file/d/1YMuQ4YseuFZB4Z1HWcCmXTY5ZK5IOoQY/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1YMuQ4YseuFZB4Z1HWcCmXTY5ZK5IOoQY/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "em-1-lab",
       "term": "experiments",
       "title": "Lab Manual",
-      "url": "https://drive.google.com/file/d/1dpoHlgAZYk7iLD4TqIjJxEyCRkzUEItn/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1dpoHlgAZYk7iLD4TqIjJxEyCRkzUEItn/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "mid-terms",
       "title": "Mid Term 2024",
-      "url": "https://drive.google.com/file/d/1L1AFDtBpjaJBsZU6ILBKxWTwcLs32Gva/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1L1AFDtBpjaJBsZU6ILBKxWTwcLs32Gva/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "end-terms",
       "title": "End Term 2022-2023",
-      "url": "https://drive.google.com/file/d/1vTrtp1zOCymKxj3bwVJJcQ7NQG6n37So/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1vTrtp1zOCymKxj3bwVJJcQ7NQG6n37So/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1qvjKCV1hI9Cqr2fklKQBx_rRybH5IdRe/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1qvjKCV1hI9Cqr2fklKQBx_rRybH5IdRe/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "end-terms",
       "title": "End Term 2024-2025 Solutions",
-      "url": "https://drive.google.com/file/d/1P5mOJecg9e_NJPv2MTsI6mcL5B2DEJBJ/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1P5mOJecg9e_NJPv2MTsI6mcL5B2DEJBJ/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "mini-tests",
       "title": "Mini Test 2026",
-      "url": "https://drive.google.com/file/d/1xvczl2RoPe0PJe8oMrTlrQmhGyQhv33R/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1xvczl2RoPe0PJe8oMrTlrQmhGyQhv33R/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "mini-tests",
       "title": "Mini Test 2024",
-      "url": "https://drive.google.com/file/d/1cVWLFKNLJCyDx0dAq7MNO0anr9LJRV-7/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1cVWLFKNLJCyDx0dAq7MNO0anr9LJRV-7/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "assignments",
       "title": "Assignment 1 Solutions",
-      "url": "https://drive.google.com/file/d/1aO_rd-LS9nSIRnI7utu_nBBHSb-dFOjd/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1aO_rd-LS9nSIRnI7utu_nBBHSb-dFOjd/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "assignments",
       "title": "Assignment 3 Solutions",
-      "url": "https://drive.google.com/file/d/1Gzpe8okQw08QbNp53dXhzuNHza26JUrU/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Gzpe8okQw08QbNp53dXhzuNHza26JUrU/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "assignments",
       "title": "Assignment 4 ",
-      "url": "https://drive.google.com/file/d/1YZo-IESyWnyOhz2muIkoJ8j5gyMOwOQd/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1YZo-IESyWnyOhz2muIkoJ8j5gyMOwOQd/view?usp=sharing",
+      "branch": "ee"
     },
      {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "assignments",
       "title": "Assignment 1 ",
-      "url": "https://drive.google.com/file/d/11H6QrlI6RboNBbAvlCXBdOiK_mvZZXNb/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/11H6QrlI6RboNBbAvlCXBdOiK_mvZZXNb/view?usp=sharing",
+      "branch": "ee"
     },
    {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "assignments",
       "title": "Assignment 2 ",
-      "url": "https://drive.google.com/file/d/1YZo-IESyWnyOhz2muIkoJ8j5gyMOwOQd/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1YZo-IESyWnyOhz2muIkoJ8j5gyMOwOQd/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "assignments",
       "title": "Assignment 3 ",
-      "url": "https://drive.google.com/file/d/1AZFOHY7xhwpF-Lmlln9rx6Ihv03jlZHv/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1AZFOHY7xhwpF-Lmlln9rx6Ihv03jlZHv/view?usp=sharing",
+      "branch": "ee"
     },
      
     {
@@ -311,84 +356,96 @@
       "subject": "mathematics-3",
       "term": "assignments",
       "title": "Correlation and Regression",
-      "url": "https://drive.google.com/file/d/1_gBNX2NN-lNYkW9tfOjbITq5Z01eNI9C/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1_gBNX2NN-lNYkW9tfOjbITq5Z01eNI9C/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "mathematics-3",
       "term": "notes",
       "title": "Curve Fitting, Correlation and Regression",
-      "url": "https://drive.google.com/file/d/1YWKKXsEArFl7OL2sWcZyaKLBQGiFmm8F/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1YWKKXsEArFl7OL2sWcZyaKLBQGiFmm8F/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "end-terms",
       "title": "End Term 2022-2023",
-      "url": "https://drive.google.com/file/d/1x7Dnj3RgDZAIIF-tlwAehNUhxeY9iRHk/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1x7Dnj3RgDZAIIF-tlwAehNUhxeY9iRHk/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1YtNIkBo02TJOY6xdv12RaJJ9xZfRbOl-/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1YtNIkBo02TJOY6xdv12RaJJ9xZfRbOl-/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/14xJgefp3-uRUISmUTKnjJOzLyMsKOHl0/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/14xJgefp3-uRUISmUTKnjJOzLyMsKOHl0/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/188YRx4G84tVo_knu9ycqW3p46J55Sq_a/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/188YRx4G84tVo_knu9ycqW3p46J55Sq_a/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "mid-terms",
       "title": "Mid Term 2026",
-      "url": "https://drive.google.com/file/d/11EMY_v4y9GNB04CnRe7yM1s3cbOCNYE4/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/11EMY_v4y9GNB04CnRe7yM1s3cbOCNYE4/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1ROyMR7D1b-9NQgYajt4_GM8-bQEJ8A3h/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ROyMR7D1b-9NQgYajt4_GM8-bQEJ8A3h/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "notes",
       "title": "Laplace Problems",
-      "url": "https://drive.google.com/file/d/15UXs86Ga8sAJ9G9sgQXwjKIcKOm3oFJR/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/15UXs86Ga8sAJ9G9sgQXwjKIcKOm3oFJR/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "notes",
       "title": "Initial Condition Problems",
-      "url": "https://drive.google.com/file/d/1N8KIEgjiILiqsp64LghvTqTCTLyXz7CI/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1N8KIEgjiILiqsp64LghvTqTCTLyXz7CI/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "network-analysis",
       "term": "notes",
       "title": "Differential Equation Problems",
-      "url": "https://drive.google.com/file/d/13SyJ19Rd32oznq8IvMYqijfj1nDZ8qvo/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/13SyJ19Rd32oznq8IvMYqijfj1nDZ8qvo/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "mini-tests",
       "title": "Mini Test 2026",
-      "url": "https://drive.google.com/file/d/1o4mLWG91Ah5QFpPae95QJZCYBjvWgKyL/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1o4mLWG91Ah5QFpPae95QJZCYBjvWgKyL/view?usp=sharing",
+      "branch": "ee"
     },
     
     {
@@ -396,251 +453,287 @@
       "subject": "emft",
       "term": "end-terms",
       "title": "End Term 2022-2023",
-      "url": "https://drive.google.com/file/d/1UI8Bq3eBsbSKM0-1uAembn2AIaz0HGN8/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1UI8Bq3eBsbSKM0-1uAembn2AIaz0HGN8/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1WH_EI7OGWiqT-IVzO34HupXzpNBWROQN/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1WH_EI7OGWiqT-IVzO34HupXzpNBWROQN/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1EHC5Pm8ATEgXDvjsfEaDuuupcDwtHblR/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1EHC5Pm8ATEgXDvjsfEaDuuupcDwtHblR/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/1GkR4NSSG6zMuvY2QQERfBMArOV6iTB3h/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1GkR4NSSG6zMuvY2QQERfBMArOV6iTB3h/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "mid-terms",
       "title": "Mid Term 2026",
-      "url": "https://drive.google.com/file/d/1g8AsLN_DkyAVOcGDSyk7VoOQApXtfwu7/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1g8AsLN_DkyAVOcGDSyk7VoOQApXtfwu7/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1lrRVDqoJvlWNmKhgZ3Mmz742yAg7jRq4/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1lrRVDqoJvlWNmKhgZ3Mmz742yAg7jRq4/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1WH_EI7OGWiqT-IVzO34HupXzpNBWROQN/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1WH_EI7OGWiqT-IVzO34HupXzpNBWROQN/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "assignments",
       "title": "Assignment 1 Solution",
-      "url": "https://drive.google.com/file/d/1FdKEDjRpHrB6kNXJF4ImgyqinqTXSG-R/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1FdKEDjRpHrB6kNXJF4ImgyqinqTXSG-R/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emft",
       "term": "assignments",
       "title": "Assignment 3 Solutions (EM Fields)",
-      "url": "https://drive.google.com/file/d/129sDRPF4BWVqm8F3OaVTrK1d0h9g9hDd/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/129sDRPF4BWVqm8F3OaVTrK1d0h9g9hDd/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "notes",
       "title": "Pressure",
-      "url": "https://drive.google.com/file/d/1lKXdIgUX11-6fgZebStfDSwOUq3M22Nf/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1lKXdIgUX11-6fgZebStfDSwOUq3M22Nf/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "notes",
       "title": "Transducer",
-      "url": "https://drive.google.com/file/d/1qiE79-1w8eqRVVhrhb2d4LVindhwvahe/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1qiE79-1w8eqRVVhrhb2d4LVindhwvahe/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "notes",
       "title": "CTPC by Rakeshwari Mam",
-      "url": "https://drive.google.com/file/d/1yH7RrwSt0C7-LcHBn_uQ-oMWRFBQ8nFa/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1yH7RrwSt0C7-LcHBn_uQ-oMWRFBQ8nFa/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "notes",
       "title": "AC-DC Bridges",
-      "url": "https://drive.google.com/file/d/1I6h0ixT5FRQ6NRhTxx6QjGZQoLj0NyaR/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1I6h0ixT5FRQ6NRhTxx6QjGZQoLj0NyaR/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "notes",
       "title": "Resistive, Inductive and Capacitive Transducer",
-      "url": "https://drive.google.com/file/d/15ZkxCo2t6wfXmPLjJCW4gXu3VVBUISvz/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/15ZkxCo2t6wfXmPLjJCW4gXu3VVBUISvz/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "notes",
       "title": "Introduction to Measurement and Instrumentation",
-      "url": "https://drive.google.com/file/d/1ONsK-aDD0qWk70tMMZd14fwZ-2SshNv5/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ONsK-aDD0qWk70tMMZd14fwZ-2SshNv5/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "assignments",
       "title": "CT Assignment Questions",
-      "url": "https://drive.google.com/file/d/1uavd1vLEZtHP9LmBPzD1eL4DRnTDLd_R/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1uavd1vLEZtHP9LmBPzD1eL4DRnTDLd_R/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "mini-tests",
       "title": "Mini Test 2023-2024",
-      "url": "https://drive.google.com/file/d/1t8XarkEuKfBucltJTic8maRUBjNkqmh6/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1t8XarkEuKfBucltJTic8maRUBjNkqmh6/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "mini-tests",
       "title": "Mini Test Set B 2023-2024",
-      "url": "https://drive.google.com/file/d/1i6MU1pmbgJ_aeJ-QGe3QfCqo3iwZrYm0/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1i6MU1pmbgJ_aeJ-QGe3QfCqo3iwZrYm0/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "mini-tests",
       "title": "Mini Exam 2026",
-      "url": "https://drive.google.com/file/d/15UuhB6VY2EB0L3Xxx85dXlPAeVMDfe_c/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/15UuhB6VY2EB0L3Xxx85dXlPAeVMDfe_c/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "mini-tests",
       "title": "Mini Exam 2024-2025",
-      "url": "https://drive.google.com/file/d/1ZWbRdW9Oq7m9oIRz2LvdjcItQzO9i3HA/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ZWbRdW9Oq7m9oIRz2LvdjcItQzO9i3HA/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "end-terms",
       "title": "End Term 2022-2023",
-      "url": "https://drive.google.com/file/d/1wOQ_jYu_ntQtkr8Hm6ZWfCGPoTmtBcmh/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1wOQ_jYu_ntQtkr8Hm6ZWfCGPoTmtBcmh/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1hEFPgJhikcUagDnzt9dFe1SFE00dt36k/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1hEFPgJhikcUagDnzt9dFe1SFE00dt36k/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1WQnYNYNMEtB06auSpzS9qg6YfUk_tCq5/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1WQnYNYNMEtB06auSpzS9qg6YfUk_tCq5/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1-GI3KHG77HRGtNDcoiOL7JgplbT_yWrG/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1-GI3KHG77HRGtNDcoiOL7JgplbT_yWrG/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1PQJwMEEpdUlTYRUxBmIVsZM_ffBwTO81/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1PQJwMEEpdUlTYRUxBmIVsZM_ffBwTO81/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "mid-terms",
       "title": "Mid Term 2026",
-      "url": "https://drive.google.com/file/d/1K_l9BZfNSbM6PoyXiffZDd-ym_iYTOU2/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1K_l9BZfNSbM6PoyXiffZDd-ym_iYTOU2/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "measurement-and-instrumentation",
       "term": "notes",
       "title": "AK Sawhney - A Course in Electrical and Electronic Measurements and Instrumentation",
-      "url": "https://drive.google.com/file/d/1JgFZ3otiAw4xVXkbDhDAVlxZvjD4sYA9/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1JgFZ3otiAw4xVXkbDhDAVlxZvjD4sYA9/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-4 Input & Output Characteristics of LVDT",
-      "url": "https://drive.google.com/file/d/140LXzEBUTbqgJg-3O6gkfzL6sjcpEybN/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/140LXzEBUTbqgJg-3O6gkfzL6sjcpEybN/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-5 Schering Bridge",
-      "url": "https://drive.google.com/file/d/1raUAEf-xAfZBnYy5LboiYiT6bcss52X7/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1raUAEf-xAfZBnYy5LboiYiT6bcss52X7/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-8 Study of LM35 and PT100 RTD",
-      "url": "https://drive.google.com/file/d/1ZJrnVnzenjtuvWf7uWW5mo1iTHKF6Pda/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ZJrnVnzenjtuvWf7uWW5mo1iTHKF6Pda/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-9 Study of Phototransistor Using Temp. Transducer Kit",
-      "url": "https://drive.google.com/file/d/1ozFuxDVMJJZOUp92d1NWD4Z6dDfIiVU2/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ozFuxDVMJJZOUp92d1NWD4Z6dDfIiVU2/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp1 Moving Coil PMMC electrodynameter",
-      "url": "https://drive.google.com/file/d/1OefwLmSJxV4DQEml8VVwDw98VH0-FuxL/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1OefwLmSJxV4DQEml8VVwDw98VH0-FuxL/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-2 Sub-standard Meter",
-      "url": "https://drive.google.com/file/d/1vSAusA69MFXvu5UustG8SKqAcabAWmfz/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1vSAusA69MFXvu5UustG8SKqAcabAWmfz/view?usp=sharing",
+      "branch": "ee"
     },{
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-3 Two Wattmeter Method",
-      "url": "https://drive.google.com/file/d/1l5gPdU3jQ7NV7G9tzl395ejf_VLYWe0C/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1l5gPdU3jQ7NV7G9tzl395ejf_VLYWe0C/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-6 Anderson Bridge",
-      "url": "https://drive.google.com/file/d/1PcbAMazb_zkRP7Sw0rZnYkELloqLyxO6/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1PcbAMazb_zkRP7Sw0rZnYkELloqLyxO6/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "instrumentation-lab",
       "term": "experiments",
       "title": "Exp-7 Maxwell's Bridge",
-      "url": "https://drive.google.com/file/d/1RMybWS-QtJBhSR7NBOh18lpL0gZWQGwM/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1RMybWS-QtJBhSR7NBOh18lpL0gZWQGwM/view?usp=sharing",
+      "branch": "ee"
     },
     
     {
@@ -648,777 +741,888 @@
       "subject": "emec-lab",
       "term": "experiments",
       "title": "List of Experiments",
-      "url": "https://drive.google.com/file/d/1dpoHlgAZYk7iLD4TqIjJxEyCRkzUEItn/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1dpoHlgAZYk7iLD4TqIjJxEyCRkzUEItn/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec-lab",
       "term": "experiments",
       "title": "To study DC Motor Starter",
-      "url": "https://drive.google.com/file/d/1-1sFfaWz0Ik4HA7U1zsb2ZZ9RrUlBenM/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1-1sFfaWz0Ik4HA7U1zsb2ZZ9RrUlBenM/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec-lab",
       "term": "experiments",
       "title": "To perform seperation of constant losses",
-      "url": "https://drive.google.com/file/d/18HJWFTTDC8Xm3Sfk8LdaELK37V7Lttrx/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/18HJWFTTDC8Xm3Sfk8LdaELK37V7Lttrx/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec-lab",
       "term": "experiments",
       "title": "Scottt Connection",
-      "url": "https://drive.google.com/file/d/1-FqrM2oRtr0fkEK9B7w5OWO4OOPx4TOf/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1-FqrM2oRtr0fkEK9B7w5OWO4OOPx4TOf/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec-lab",
       "term": "experiments",
       "title": "Reactive Power Using Single Wattmeter",
-      "url": "https://drive.google.com/file/d/1bI22-tjXWLX9AjQhTWJB_mZEJT4U9aA7/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1bI22-tjXWLX9AjQhTWJB_mZEJT4U9aA7/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec-lab",
       "term": "experiments",
       "title": "Parallel Operation of Two Single Phase Transformers",
-      "url": "https://drive.google.com/file/d/11acfYtR37N5_7qR86h65tqM8ji6kaT5R/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/11acfYtR37N5_7qR86h65tqM8ji6kaT5R/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec-lab",
       "term": "experiments",
       "title": "Measuring 3 phase power by two wattmeter method",
-      "url": "https://drive.google.com/file/d/1l4PQBK8R8WAroXpRmcacdY0mNNCBsMn4/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1l4PQBK8R8WAroXpRmcacdY0mNNCBsMn4/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester3",
       "subject": "emec-lab",
       "term": "experiments",
       "title": "magnetization characteristics of seperately excited dc gen at rated speed",
-      "url": "https://drive.google.com/file/d/1OKtMPx6mDZ6m_bzzSrYgmzJfP3ZQvktg/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1OKtMPx6mDZ6m_bzzSrYgmzJfP3ZQvktg/view?usp=sharing",
+      "branch": "ee"
     },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "Z Parameter",
-    "url": "https://drive.google.com/file/d/1mqlSLp4kAyiucI-50wr2TXeC7Er1OWE9/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1mqlSLp4kAyiucI-50wr2TXeC7Er1OWE9/view?usp=sharing",
+    "branch": "ee"
   },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "Verification of Reciprocity Theorem",
-    "url": "https://drive.google.com/file/d/1xwWM0W-D8hYSZuCGzFDO6fHjAvt5tYYm/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1xwWM0W-D8hYSZuCGzFDO6fHjAvt5tYYm/view?usp=sharing",
+    "branch": "ee"
   },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "Thevenin's Theorem",
-    "url": "https://drive.google.com/file/d/1zsM35N7P5QCly7eQtrzXfX9A5L8lGoDp/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1zsM35N7P5QCly7eQtrzXfX9A5L8lGoDp/view?usp=sharing",
+    "branch": "ee"
   },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "Series & Parallel LRC Resonance Ckt",
-    "url": "https://drive.google.com/file/d/1p9LMybDkLizGCRjhBL8FoBVWxpzfHHJW/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1p9LMybDkLizGCRjhBL8FoBVWxpzfHHJW/view?usp=sharing",
+    "branch": "ee"
   },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "Norton Theorem",
-    "url": "https://drive.google.com/file/d/10qfc6nHv9yb4IAOWgU2WH-javangIa8X/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/10qfc6nHv9yb4IAOWgU2WH-javangIa8X/view?usp=sharing",
+    "branch": "ee"
   },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "Maximum Power Transfer Theorem",
-    "url": "https://drive.google.com/file/d/1X_zo2udUwKnbio0DfZ3A7wwPTBnZ-Ie4/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1X_zo2udUwKnbio0DfZ3A7wwPTBnZ-Ie4/view?usp=sharing",
+    "branch": "ee"
   },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "Expt. 2 Superposition Theorem",
-    "url": "https://drive.google.com/file/d/1ZJ-ydZ2_-efQFwMFMny-3iv4A0uq2rH2/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1ZJ-ydZ2_-efQFwMFMny-3iv4A0uq2rH2/view?usp=sharing",
+    "branch": "ee"
   },
   {
     "semester": "semester3",
     "subject": "network-lab",
     "term": "experiments",
     "title": "ABCD Parameter",
-    "url": "https://drive.google.com/file/d/1HCRpHUCokrGLYnarv08FESEvUfTq8Yd6/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1HCRpHUCokrGLYnarv08FESEvUfTq8Yd6/view?usp=sharing",
+    "branch": "ee"
   },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "List of Electronics Lab Experiments",
-      "url": "https://drive.google.com/file/d/1Pq7cSbCCGM7DxH-HsV3Po4n70MJgjcSt/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Pq7cSbCCGM7DxH-HsV3Po4n70MJgjcSt/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 1 Operational Amplifier",
-      "url": "https://drive.google.com/file/d/1edGfc6HDm7iEJ17hZ0UeX3mD9ySib5Gh/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1edGfc6HDm7iEJ17hZ0UeX3mD9ySib5Gh/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 2 Verification of OPAMP",
-      "url": "https://drive.google.com/file/d/1yuL0RDirtXno60Mj5-bnLcfucdDMTxS1/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1yuL0RDirtXno60Mj5-bnLcfucdDMTxS1/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 3 Verification of 3 Terminal Voltage Regulator",
-      "url": "https://drive.google.com/file/d/1VJ44s4KqH76blvzqESUCoHZkdOSY8A0N/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1VJ44s4KqH76blvzqESUCoHZkdOSY8A0N/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 4 Study of Various Logic Gates IC",
-      "url": "https://drive.google.com/file/d/1bJnYrDRtD8_1TsP-NhJhwu-pRYYO_4GK/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1bJnYrDRtD8_1TsP-NhJhwu-pRYYO_4GK/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 5 Study of BCD Counter",
-      "url": "https://drive.google.com/file/d/15v9PVZAdFAZ_KyOJvsMudvWssGnJMacE/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/15v9PVZAdFAZ_KyOJvsMudvWssGnJMacE/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 6 Study the 555-Timer",
-      "url": "https://drive.google.com/file/d/1O5-52SLLiOmwa5q9STHvxKVWIh5XgWYx/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1O5-52SLLiOmwa5q9STHvxKVWIh5XgWYx/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 7 Study of Wein Bridge Oscillator",
-      "url": "https://drive.google.com/file/d/1hilI8KU75LcXWtTER6lzD2L4_WUH66Ts/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1hilI8KU75LcXWtTER6lzD2L4_WUH66Ts/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronics-lab",
       "term": "experiments",
       "title": "Exp 8 Study the Operation of Flip Flops",
-      "url": "https://drive.google.com/file/d/1jzBakqh5bXFeJPA8plTJMCeLwo4DSvug/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1jzBakqh5bXFeJPA8plTJMCeLwo4DSvug/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "assignments",
       "title": "Assignment 1",
-      "url": "https://drive.google.com/file/d/1iQSZGIfpEhypmXqru_AwqEQRsSrdrEt8/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1iQSZGIfpEhypmXqru_AwqEQRsSrdrEt8/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "assignments",
       "title": "Assignment 2",
-      "url": "https://drive.google.com/file/d/1Tu0Qa5TqsNL00H33GziS8cbb2cFSrryg/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Tu0Qa5TqsNL00H33GziS8cbb2cFSrryg/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "assignments",
       "title": "Assignment 3",
-      "url": "https://drive.google.com/file/d/1Gj0JogNp9nhVseExjB8NrWRA19bfGMR7/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Gj0JogNp9nhVseExjB8NrWRA19bfGMR7/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "assignments",
       "title": "Assignment 4",
-      "url": "https://drive.google.com/file/d/1U0g77u24uLK2DU5-3S8YJeNFXfSL4a7j/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1U0g77u24uLK2DU5-3S8YJeNFXfSL4a7j/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1qvvxHRWiOBQhZU2rMMGENUiatk33KQx9/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1qvvxHRWiOBQhZU2rMMGENUiatk33KQx9/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/14vph009xMxM6kdRLp5UrI7InIgrlD6rg/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/14vph009xMxM6kdRLp5UrI7InIgrlD6rg/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "notes",
       "title": "Electronics (EE223) Syllabus",
-      "url": "https://drive.google.com/file/d/1Pp8tCQwEbyxhQxF8edakdixg9RJ-N67-/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Pp8tCQwEbyxhQxF8edakdixg9RJ-N67-/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "notes",
       "title": "Digital Electronics Part 2",
-      "url": "https://drive.google.com/file/d/1FnRpYKphaQeoMUmyiI3yFIgvW6KwliW3/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1FnRpYKphaQeoMUmyiI3yFIgvW6KwliW3/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "notes",
       "title": "Analog Electronics Part 1",
-      "url": "https://drive.google.com/file/d/1LL3Pv5I1d9qt8cVSPh10r0gADqHOg-l-/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1LL3Pv5I1d9qt8cVSPh10r0gADqHOg-l-/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1wvcg6Mq9DusaXRRKG1ENnvx-EVh3hvM2/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1wvcg6Mq9DusaXRRKG1ENnvx-EVh3hvM2/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1R6obAISw5ZMzvZRYf6_i4QufOGhf-6jB/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1R6obAISw5ZMzvZRYf6_i4QufOGhf-6jB/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "end-terms",
       "title": "End Term 2025-2026 (EDC)",
-      "url": "https://drive.google.com/file/d/1yY8e2SBeDPGGlCtqykQPatTUE4akB61x/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1yY8e2SBeDPGGlCtqykQPatTUE4akB61x/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "electronic-devices-and-systems",
       "term": "end-terms",
       "title": "End Term 2025-2026 (Signal System)",
-      "url": "https://drive.google.com/file/d/1os49RMeG-qiBpT2jT9ZelQW8P2_8p6Qf/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1os49RMeG-qiBpT2jT9ZelQW8P2_8p6Qf/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1CzeckAueZ-R7qZZeXXYHVK56CwoaZuDn/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1CzeckAueZ-R7qZZeXXYHVK56CwoaZuDn/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1qRESd49QE6EACELdUMVOLF4SnY3eao4r/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1qRESd49QE6EACELdUMVOLF4SnY3eao4r/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/1gJfWFnbzsS3muuQkX4MwBLn6lbBGK9jt/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1gJfWFnbzsS3muuQkX4MwBLn6lbBGK9jt/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "mini-tests",
       "title": "Mini Test 2024-2025",
-      "url": "https://drive.google.com/file/d/140fiuxS3lGlLn8VIhTahFzFRb-c_IvNQ/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/140fiuxS3lGlLn8VIhTahFzFRb-c_IvNQ/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1LZaPiLMv8SJpLT42myFL_DtmO_4IvJ_u/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1LZaPiLMv8SJpLT42myFL_DtmO_4IvJ_u/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1vg_piOEXCG7n2e6wz63mAZjzZ5xYV2Je/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1vg_piOEXCG7n2e6wz63mAZjzZ5xYV2Je/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "notes",
       "title": "Salient Pole Machine Part 2",
-      "url": "https://drive.google.com/file/d/1dX9n5O1ooT3AhMDZ9sHlJgVjclQLFIZP/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1dX9n5O1ooT3AhMDZ9sHlJgVjclQLFIZP/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2",
       "term": "notes",
       "title": "Synchronous Motor",
-      "url": "https://drive.google.com/file/d/1rpOVlLkzOXvljDTg_Qh_2zEQLkflaUjG/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1rpOVlLkzOXvljDTg_Qh_2zEQLkflaUjG/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "fundamentals-of-entrepreneurship",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/14Z0ezDdRnZUlpDKRgDuCbtcSVpu6Jkjd/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/14Z0ezDdRnZUlpDKRgDuCbtcSVpu6Jkjd/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "fundamentals-of-entrepreneurship",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/11gcePSiAkUdMjQU43_lps6gwvWF_6J7Z/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/11gcePSiAkUdMjQU43_lps6gwvWF_6J7Z/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "fundamentals-of-entrepreneurship",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1TGZCykOP0ZdaoVve0TWbIAPfMjadhit-/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1TGZCykOP0ZdaoVve0TWbIAPfMjadhit-/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "fundamentals-of-entrepreneurship",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/1fZqs0UdpH4YHtdyx3cUrPbL8RVV8MfPO/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1fZqs0UdpH4YHtdyx3cUrPbL8RVV8MfPO/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "fundamentals-of-entrepreneurship",
       "term": "notes",
       "title": "FOE Notes",
-      "url": "https://drive.google.com/file/d/1p7KyJ-UZWK08WTzLn6lfGwoBy9-rGBwz/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1p7KyJ-UZWK08WTzLn6lfGwoBy9-rGBwz/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "fundamentals-of-entrepreneurship",
       "term": "notes",
       "title": "FOE Full Notes 2026",
-      "url": "https://drive.google.com/file/d/1CyI18maQ4Za40TDeAMkprAskPhW0r_ao/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1CyI18maQ4Za40TDeAMkprAskPhW0r_ao/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "List of EMEC-2 Lab Experiments",
-      "url": "https://drive.google.com/file/d/1lGvMPd4oN4QclGe7J6bzQMKMf3ZnsBJ6/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1lGvMPd4oN4QclGe7J6bzQMKMf3ZnsBJ6/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-1 No Load and Blocked Rotor Test on 1 Phase Induction Motor",
-      "url": "https://drive.google.com/file/d/1yvM1rf6oa_sb1ROKz-8_RK8wi-xG2i79/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1yvM1rf6oa_sb1ROKz-8_RK8wi-xG2i79/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-2 V Curves of Synchronous Motor",
-      "url": "https://drive.google.com/file/d/1I-t_uB8q6ckU1Rw0bEZQI_Bgl9AVer9k/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1I-t_uB8q6ckU1Rw0bEZQI_Bgl9AVer9k/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-3 No Load and Blocked Rotor Test on 3 Phase Induction Motor",
-      "url": "https://drive.google.com/file/d/1zjP8Rr5BF7U332vNARJX2gsd3mXakDAM/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1zjP8Rr5BF7U332vNARJX2gsd3mXakDAM/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-4 OC SC Test on Alternator",
-      "url": "https://drive.google.com/file/d/1jsx-qRo5EJJl1dK6Aevr4V7h6qgh9noW/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1jsx-qRo5EJJl1dK6Aevr4V7h6qgh9noW/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-5 Load Test on 3 Phase Induction Motor",
-      "url": "https://drive.google.com/file/d/1nKgmVSFHHxqvekNvUr5nod2kzXsZ__sa/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1nKgmVSFHHxqvekNvUr5nod2kzXsZ__sa/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-6 Speed Control of 3 Phase Induction Motor",
-      "url": "https://drive.google.com/file/d/1Sl9s00e3TmdpDPa9b0i0a4q2QltepZGN/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Sl9s00e3TmdpDPa9b0i0a4q2QltepZGN/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-7 Study of Various Starters for 3 Phase Induction Motor",
-      "url": "https://drive.google.com/file/d/1o2Q2bE0s-pwKHU5WYUGDuja14Wo4IAIf/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1o2Q2bE0s-pwKHU5WYUGDuja14Wo4IAIf/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "emec-2-lab",
       "term": "experiments",
       "title": "Exp-8 Study of Induction Generator",
-      "url": "https://drive.google.com/file/d/1JdhGEXfoQlgUUCEpehwvXpU29EF8lXh6/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1JdhGEXfoQlgUUCEpehwvXpU29EF8lXh6/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "assignments",
       "title": "Assignment 1",
-      "url": "https://drive.google.com/file/d/1fuhHJcvjZKefpZTGyTxUvwus3nJu3o6p/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1fuhHJcvjZKefpZTGyTxUvwus3nJu3o6p/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "assignments",
       "title": "Assignment 2",
-      "url": "https://drive.google.com/file/d/1Mz9WdENqzHJZTsmd5lnLpIHJH1RAySko/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Mz9WdENqzHJZTsmd5lnLpIHJH1RAySko/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "assignments",
       "title": "Assignment 3",
-      "url": "https://drive.google.com/file/d/10tVYu3qlG_wuVLVtpS999VD8W_-bM2HV/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/10tVYu3qlG_wuVLVtpS999VD8W_-bM2HV/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "assignments",
       "title": "Assignment 4",
-      "url": "https://drive.google.com/file/d/1aTZSsXzcu6ztWfpKKEJUFlVO7euWQgzU/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1aTZSsXzcu6ztWfpKKEJUFlVO7euWQgzU/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "assignments",
       "title": "Assignment 5",
-      "url": "https://drive.google.com/file/d/1Mc2fVrruwb2mpT9gKC3Mzfo12_LbNnpw/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Mc2fVrruwb2mpT9gKC3Mzfo12_LbNnpw/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "assignments",
       "title": "Assignment 6",
-      "url": "https://drive.google.com/file/d/1cSqUaLUQBWJN9QMgrvSbAXNtkyUzmVZ1/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1cSqUaLUQBWJN9QMgrvSbAXNtkyUzmVZ1/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "assignments",
       "title": "Assignment (2023-2024)",
-      "url": "https://drive.google.com/file/d/1MEKjPMH8u5STo0mBVWWQPdveNhdpQGAM/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1MEKjPMH8u5STo0mBVWWQPdveNhdpQGAM/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "mini-tests",
       "title": "Mini Test 2024-2025",
-      "url": "https://drive.google.com/file/d/1Dn7mz4K6aU14yzpvLRdX-z-wHJEiIilg/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1Dn7mz4K6aU14yzpvLRdX-z-wHJEiIilg/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "notes",
       "title": "mathematics-4-4 Syllabus",
-      "url": "https://drive.google.com/file/d/1mBamR7c4k8p-R_KqNLHyCJAlDry9-aHn/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1mBamR7c4k8p-R_KqNLHyCJAlDry9-aHn/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1oEPAK_toqxCEM7XQPVo_c2ox4XtOIkQe/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1oEPAK_toqxCEM7XQPVo_c2ox4XtOIkQe/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1fupTi4_6huBQ_NTq9HjSAvO1op1s581h/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1fupTi4_6huBQ_NTq9HjSAvO1op1s581h/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/15sYI9k_BKpj07GeLBZjPKP3ejBYg8FDc/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/15sYI9k_BKpj07GeLBZjPKP3ejBYg8FDc/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "mathematics-4",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1yMTASZ6yhXoIv5hqIXSxRKgBi2rqapiU/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1yMTASZ6yhXoIv5hqIXSxRKgBi2rqapiU/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1VH3GIPXNRxPWjLpJkMH7a8T2BWSoihkl/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1VH3GIPXNRxPWjLpJkMH7a8T2BWSoihkl/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/12ZhndO-mSQJDPNJaqgPRJRIxzvifVe9q/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/12ZhndO-mSQJDPNJaqgPRJRIxzvifVe9q/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1O0R8dVOsClxbhxlLy9iXs22t0QHyhmRU/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1O0R8dVOsClxbhxlLy9iXs22t0QHyhmRU/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1BPC-0WJMBmlRh82EapBAfY2gpiL3jEN1/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1BPC-0WJMBmlRh82EapBAfY2gpiL3jEN1/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/19J9eN9CVsAq8TSjxx11GIPnqThG9sh4b/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/19J9eN9CVsAq8TSjxx11GIPnqThG9sh4b/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "assignments",
       "title": "Assignment 1",
-      "url": "https://drive.google.com/file/d/12i1nK4P2sw9je4XHm98V6sYYIOictfTE/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/12i1nK4P2sw9je4XHm98V6sYYIOictfTE/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "assignments",
       "title": "Assignment 2",
-      "url": "https://drive.google.com/file/d/1LZS8xePekowBQFPoMVoxwq4UVVUEbaEK/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1LZS8xePekowBQFPoMVoxwq4UVVUEbaEK/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "assignments",
       "title": "Assignment 3",
-      "url": "https://drive.google.com/file/d/1BHbuD6eIG3ZzW-o5Drqhh-QqGG-kbdnB/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1BHbuD6eIG3ZzW-o5Drqhh-QqGG-kbdnB/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "assignments",
       "title": "Assignment 4 & 5",
-      "url": "https://drive.google.com/file/d/1gsF68v_pc8F0k6WeZZEYxXw2ixOhymMJ/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1gsF68v_pc8F0k6WeZZEYxXw2ixOhymMJ/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Gen of Electric Power Syllabus",
-      "url": "https://drive.google.com/file/d/1SyUMbEb0NtRpY4adsviRg2hoZ6cCb1VM/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1SyUMbEb0NtRpY4adsviRg2hoZ6cCb1VM/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Heat Flow",
-      "url": "https://drive.google.com/file/d/1lP1Rk3uVNfjBuQHQ6NcCX6JZdYg5zfrR/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1lP1Rk3uVNfjBuQHQ6NcCX6JZdYg5zfrR/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Problems",
-      "url": "https://drive.google.com/file/d/1-ev3jBGmbLQUarOgiAlmwgeC-VC8DZlf/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1-ev3jBGmbLQUarOgiAlmwgeC-VC8DZlf/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Coal Handling Plant",
-      "url": "https://drive.google.com/file/d/13l4oG9gfHmvI164Iz2ygE12Gx2hDJ6N4/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/13l4oG9gfHmvI164Iz2ygE12Gx2hDJ6N4/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Demand Side Management Concept",
-      "url": "https://drive.google.com/file/d/1FmBLtw2f4YRI89cjMrYT1XFNeiXqn9tZ/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1FmBLtw2f4YRI89cjMrYT1XFNeiXqn9tZ/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Synchronous Condenser",
-      "url": "https://drive.google.com/file/d/1CELGnZz4zcZ1jrNZBckr0mhKWxuQUMH-/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1CELGnZz4zcZ1jrNZBckr0mhKWxuQUMH-/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Data Acquisition System",
-      "url": "https://drive.google.com/file/d/1o5JnpbBG9eQViLZCUdILV1-acsZT0hhU/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1o5JnpbBG9eQViLZCUdILV1-acsZT0hhU/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Depreciation",
-      "url": "https://drive.google.com/file/d/1qgIILOC1YUyE3LyGiNoPdsA9M56wdAGH/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1qgIILOC1YUyE3LyGiNoPdsA9M56wdAGH/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Deregulation Power Generation",
-      "url": "https://drive.google.com/file/d/1VUrOv8_ll0X50NoLq96L2xRJpXqPheHY/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1VUrOv8_ll0X50NoLq96L2xRJpXqPheHY/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Turbine Speed Governing System",
-      "url": "https://drive.google.com/file/d/1vfYRkS_LIT2nTVC4R2XOOdQC8BOGrEUT/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1vfYRkS_LIT2nTVC4R2XOOdQC8BOGrEUT/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Pressurised Water Reactor",
-      "url": "https://drive.google.com/file/d/1tYSFmvntAAPD54kMvuxcFT9HZXKpPbZc/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1tYSFmvntAAPD54kMvuxcFT9HZXKpPbZc/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Hydro Plants Part 1",
-      "url": "https://drive.google.com/file/d/1X7Adxc1A4pU3ViN0hOUflAMQQvUmKw5Y/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1X7Adxc1A4pU3ViN0hOUflAMQQvUmKw5Y/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Hydro Plants Part 2",
-      "url": "https://drive.google.com/file/d/1zFfEURkcdM6elcEd-5mwlxanQ7R_txu7/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1zFfEURkcdM6elcEd-5mwlxanQ7R_txu7/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Renewable Energy Notes",
-      "url": "https://drive.google.com/file/d/1ae8DZEY5ls7jZF48q45areu82GTSqpA6/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1ae8DZEY5ls7jZF48q45areu82GTSqpA6/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "Without Tx Loss Economic Load Dispatch",
-      "url": "https://drive.google.com/file/d/1DI-uO9uFdkqW1Fm3kU6lv9V-XbliOtsq/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1DI-uO9uFdkqW1Fm3kU6lv9V-XbliOtsq/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "generation-of-electrical-power",
       "term": "notes",
       "title": "With Tx Losses Economic Load Dispatch",
-      "url": "https://drive.google.com/file/d/1aBtEHspUV4WX-DhGQknfMjlMniQCdfeG/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1aBtEHspUV4WX-DhGQknfMjlMniQCdfeG/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "assignments",
       "title": "Assignment 1",
-      "url": "https://drive.google.com/file/d/12WrcxHFR3JqU4aXgUQvkfkXYbbFpFdv4/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/12WrcxHFR3JqU4aXgUQvkfkXYbbFpFdv4/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "assignments",
       "title": "Assignment 2",
-      "url": "https://drive.google.com/file/d/1rfLZU5EVSQDnxn9ww8VpQKtg-15ztJpA/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1rfLZU5EVSQDnxn9ww8VpQKtg-15ztJpA/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "assignments",
       "title": "Assignment 3",
-      "url": "https://drive.google.com/file/d/13Bl7Ly3ClXMPKiDYvVtTKnV-iQKa6_eV/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/13Bl7Ly3ClXMPKiDYvVtTKnV-iQKa6_eV/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "assignments",
       "title": "Assignment 4",
-      "url": "https://drive.google.com/file/d/1x4Meu2LD2ZRTb_-IFmzbWm_lUP0wt7p3/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1x4Meu2LD2ZRTb_-IFmzbWm_lUP0wt7p3/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "assignments",
       "title": "Assignment 5",
-      "url": "https://drive.google.com/file/d/15l4sbXHU2SRFkJTC3uaLF487fqrEpXBU/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/15l4sbXHU2SRFkJTC3uaLF487fqrEpXBU/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "mid-terms",
       "title": "Mid Term 2023-2024",
-      "url": "https://drive.google.com/file/d/124G6Ux_wbP5PjNE5ev77I8ATU0Nk4I3L/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/124G6Ux_wbP5PjNE5ev77I8ATU0Nk4I3L/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "mid-terms",
       "title": "Mid Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1EjtpuEQg7Zfi7Gqulh24yFv-IbNULNzl/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1EjtpuEQg7Zfi7Gqulh24yFv-IbNULNzl/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "end-terms",
       "title": "End Term 2023-2024",
-      "url": "https://drive.google.com/file/d/1de-MCfpaYIL8qRclkPDlEeq0iB_gqOyX/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1de-MCfpaYIL8qRclkPDlEeq0iB_gqOyX/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "end-terms",
       "title": "End Term 2024-2025",
-      "url": "https://drive.google.com/file/d/1FpjXSv1ifZndT8g-PpKOIfNvFxvV7fPR/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1FpjXSv1ifZndT8g-PpKOIfNvFxvV7fPR/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "end-terms",
       "title": "End Term 2025-2026",
-      "url": "https://drive.google.com/file/d/1B6JpF4KYLToZl6MlZWKn9Car9zIO8cAR/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1B6JpF4KYLToZl6MlZWKn9Car9zIO8cAR/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "notes",
       "title": "CL Wadhwa Book",
-      "url": "https://drive.google.com/file/d/10utqFTAXVE7XgXgVaeAMHtjee9d2vaCo/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/10utqFTAXVE7XgXgVaeAMHtjee9d2vaCo/view?usp=sharing",
+      "branch": "ee"
     },
     {
       "semester": "semester4",
       "subject": "power-systems",
       "term": "notes",
       "title": "Power System Syllabus",
-      "url": "https://drive.google.com/file/d/1VPjB0RhwsUFyyq1zgdBqk47R_dtt6XML/view?usp=sharing"
+      "url": "https://drive.google.com/file/d/1VPjB0RhwsUFyyq1zgdBqk47R_dtt6XML/view?usp=sharing",
+      "branch": "ee"
     }
   ]
 }

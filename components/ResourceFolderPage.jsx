@@ -9,7 +9,12 @@ import {
 export default function ResourceFolderPage({ theme }) {
   const isDark = theme === 'dark'
 
-  const { semester, subjectSlug, termSlug } = useParams()
+  const {
+    branch,
+    semester,
+    subjectSlug,
+    termSlug,
+  } = useParams()
 
   const subject = useMemo(
     () => subjectData[semester]?.[subjectSlug],
@@ -20,11 +25,18 @@ export default function ResourceFolderPage({ theme }) {
     if (!subject) return null
 
     return getSubjectResourceTerm(
+      branch,
       semester,
       subjectSlug,
       termSlug
     )
-  }, [semester, subjectSlug, termSlug, subject])
+  }, [
+    branch,
+    semester,
+    subjectSlug,
+    termSlug,
+    subject,
+  ])
 
   if (!subject || !term) {
     return (
@@ -47,7 +59,7 @@ export default function ResourceFolderPage({ theme }) {
           </h1>
 
           <Link
-            to={`/subjects/${semester}/${subjectSlug}`}
+            to={`/subjects/${branch}/${semester}/${subjectSlug}`}
             className="mt-6 inline-flex rounded-full bg-sky-600 px-5 py-3 text-white hover:bg-sky-500"
           >
             Back
@@ -91,7 +103,7 @@ export default function ResourceFolderPage({ theme }) {
             </div>
 
             <Link
-              to={`/subjects/${semester}/${subjectSlug}`}
+              to={`/subjects/${branch}/${semester}/${subjectSlug}`}
               className={`rounded-full px-5 py-3 ${
                 isDark
                   ? 'bg-slate-900'
@@ -106,7 +118,7 @@ export default function ResourceFolderPage({ theme }) {
             {term.files.map((file, index) => (
               <Link
                 key={index}
-                to={`/viewer/${semester}/${subjectSlug}/${termSlug}/${index}`}
+                to={`/viewer/${branch}/${semester}/${subjectSlug}/${termSlug}/${index}`}
                 className={`rounded-2xl border p-5 transition hover:-translate-y-1 ${
                   isDark
                     ? 'border-slate-700 bg-slate-900'
