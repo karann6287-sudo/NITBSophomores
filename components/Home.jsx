@@ -130,17 +130,7 @@ export default function Home({
                 </select>
               </div>
 
-              {/* Subject Count */}
-              <div
-                className={`rounded-2xl px-5 py-3.5 text-sm md:text-base ${
-                  isDark
-                    ? 'bg-slate-900 text-slate-300'
-                    : 'bg-slate-100 text-slate-600'
-                }`}
-              >
-                Showing {activeSubjects.length} subjects for{' '}
-                {semesterLabel}
-              </div>
+              
             </div>
           </div>
 
