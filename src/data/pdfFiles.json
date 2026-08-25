@@ -1,7 +1,9 @@
 {
   "syllabus": {
-    "title": "Electrical Engineering Syllabus",
-    "url": "https://drive.google.com/file/d/1nKVIQ0qr41M3JtxypXxCpd7axp9IJ9GD/view?usp=sharing"
+    "ee": {
+      "title": "Electrical Engineering Syllabus",
+      "url": "https://drive.google.com/file/d/1nKVIQ0qr41M3JtxypXxCpd7axp9IJ9GD/view?usp=sharing"
+    }
   },
   "subjects": [
     {

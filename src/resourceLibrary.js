@@ -1,6 +1,10 @@
 import pdfData from './data/pdfFiles.json'
 
-export const syllabusUrl = pdfData.syllabus.url
+export const syllabusUrl = pdfData.syllabus.ee.url
+
+export function getSyllabus(branch) {
+  return pdfData.syllabus[branch] ?? null
+}
 
 const preferredTermDefinitions = [
   { slug: 'mini-tests', label: 'Mini Tests' },

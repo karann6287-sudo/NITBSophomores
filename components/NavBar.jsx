@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import manitLogo from '../assets/MANIGTT.png'
-import { syllabusUrl } from '../src/resourceLibrary'
 
-export default function NavBar({ theme, onToggleTheme }) {
+export default function NavBar({
+  theme,
+  onToggleTheme,
+}) {
   const isDark = theme === 'dark'
 
   return (
@@ -17,19 +19,14 @@ export default function NavBar({ theme, onToggleTheme }) {
             className="h-9 w-9 md:h-11 md:w-11 rounded-full object-cover ring-2 ring-white/80 shadow-md shadow-black/20"
           />
 
-          <div>
-            <div className="text-base md:text-lg font-semibold">
-              NITBSophomores
-            </div>
-
-            <div className="text-xs md:text-sm text-sky-100/90">
-              Electrical Engineering
-            </div>
+          <div className="text-base md:text-lg font-semibold">
+            NITBSophomores
           </div>
         </div>
 
-        <nav className="flex items-center justify-center md:justify-end gap-3 md:gap-5 text-sm md:text-base font-medium w-full md:w-auto flex-wrap ">
+        <nav className="flex items-center justify-center md:justify-end gap-3 md:gap-5 text-sm md:text-base font-medium w-full md:w-auto flex-wrap">
 
+          {/* Home */}
           <Link
             to="/"
             className="transition-colors text-white/90 hover:text-cyan-200"
@@ -37,21 +34,29 @@ export default function NavBar({ theme, onToggleTheme }) {
             Home
           </Link>
 
-          <a
-            href={syllabusUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          {/* Syllabus */}
+          <Link
+            to="/syllabus"
             className="transition-colors text-white/90 hover:text-cyan-200"
           >
             Syllabus
-          </a>
+          </Link>
 
+          {/* Theme Toggle */}
           <button
             type="button"
             onClick={onToggleTheme}
             className="inline-flex items-center justify-center h-8 w-8 md:h-9 md:w-9 rounded-full border border-white/20 bg-white/10 text-white transition-colors hover:bg-white/20 hover:border-white/30"
-            aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
-            title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
+            aria-label={
+              isDark
+                ? 'Switch to light mode'
+                : 'Switch to dark mode'
+            }
+            title={
+              isDark
+                ? 'Switch to light mode'
+                : 'Switch to dark mode'
+            }
           >
             {isDark ? (
               <svg

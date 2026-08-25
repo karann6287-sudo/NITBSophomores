@@ -2,16 +2,20 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { branchData } from '../src/data/branchData.js'
 
-export default function Home({ theme }) {
+export default function Home({
+  theme,
+  selectedBranch,
+  setSelectedBranch,
+}) {
   const isDark = theme === 'dark'
 
-  const [selectedBranch, setSelectedBranch] = useState('ee')
-  const [selectedSemester, setSelectedSemester] = useState('semester3')
+  const [selectedSemester, setSelectedSemester] =
+    useState('semester3')
 
   const branch = branchData[selectedBranch]
 
   const activeSubjects =
-    branch.semesters[selectedSemester] || []
+    branch?.semesters?.[selectedSemester] || []
 
   const semesterLabel =
     selectedSemester === 'semester3'
@@ -26,7 +30,10 @@ export default function Home({ theme }) {
           : 'bg-gray-50 text-gray-900'
       }`}
     >
-      <section id="home" className="max-w-6xl mx-auto px-6 py-14">
+      <section
+        id="home"
+        className="max-w-6xl mx-auto px-6 py-14"
+      >
         <div
           className={`rounded-4xl shadow-2xl border p-7 md:p-10 ${
             isDark
@@ -37,7 +44,9 @@ export default function Home({ theme }) {
           <div className="mt-5 flex flex-col gap-3">
             <p
               className={`text-base md:text-lg ${
-                isDark ? 'text-slate-300' : 'text-gray-600'
+                isDark
+                  ? 'text-slate-300'
+                  : 'text-gray-600'
               }`}
             >
               Choose your branch and semester.
@@ -73,7 +82,10 @@ export default function Home({ theme }) {
                 >
                   {Object.entries(branchData).map(
                     ([slug, branch]) => (
-                      <option key={slug} value={slug}>
+                      <option
+                        key={slug}
+                        value={slug}
+                      >
                         {branch.name}
                       </option>
                     )
@@ -98,7 +110,9 @@ export default function Home({ theme }) {
                   id="semester-select"
                   value={selectedSemester}
                   onChange={(event) =>
-                    setSelectedSemester(event.target.value)
+                    setSelectedSemester(
+                      event.target.value
+                    )
                   }
                   className={`mt-2 w-full md:w-80 rounded-2xl border px-4 py-3.5 shadow-sm outline-none ${
                     isDark
@@ -109,6 +123,7 @@ export default function Home({ theme }) {
                   <option value="semester3">
                     Semester 3
                   </option>
+
                   <option value="semester4">
                     Semester 4
                   </option>
@@ -177,6 +192,80 @@ export default function Home({ theme }) {
                 </Link>
               )
             })}
+          </div>
+        </div>
+
+        {/* Resource Contribution */}
+        <div
+          className={`mt-12 rounded-3xl border p-6 md:p-8 ${
+            isDark
+              ? 'border-sky-800/60 bg-sky-950/30'
+              : 'border-sky-100 bg-sky-50'
+          }`}
+        >
+          <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+            <div className="flex items-start gap-4">
+              <div
+                className={`rounded-2xl p-3 ${
+                  isDark
+                    ? 'bg-sky-900/70 text-sky-300'
+                    : 'bg-white text-sky-600'
+                }`}
+              >
+                <svg
+                  aria-hidden="true"
+                  className="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 4v12m0 0 4-4m-4 4-4-4M5 20h14"
+                  />
+                </svg>
+              </div>
+
+              <div>
+                <h2 className="text-xl font-semibold md:text-2xl">
+                  Have Resources for Your Branch?
+                </h2>
+
+                <p
+                  className={`mt-2 max-w-2xl leading-7 ${
+                    isDark
+                      ? 'text-slate-300'
+                      : 'text-gray-600'
+                  }`}
+                >
+                  Help us expand NITBSophomores by sharing
+                  useful notes, assignments, previous papers,
+                  lab resources, or other study material with
+                  your fellow students.
+                </p>
+              </div>
+            </div>
+
+            <div className="shrink-0">
+              <a
+                href="mailto:pocox3pro859@gmail.com"
+                className="inline-flex w-full items-center justify-center rounded-2xl bg-sky-600 px-5 py-3.5 font-medium text-white shadow-sm transition hover:bg-sky-700 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 md:w-auto"
+              >
+                Share Resources
+              </a>
+
+              <p
+                className={`mt-2 text-center text-sm ${
+                  isDark
+                    ? 'text-slate-400'
+                    : 'text-gray-500'
+                }`}
+              >
+                Mail us : pocox3pro859@gmail.com
+              </p>
+            </div>
           </div>
         </div>
       </section>

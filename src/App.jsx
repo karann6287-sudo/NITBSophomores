@@ -21,6 +21,8 @@ function App() {
       : 'light'
   })
 
+  const [selectedBranch, setSelectedBranch] = useState('ee')
+
   useEffect(() => {
     localStorage.setItem('theme', theme)
 
@@ -47,14 +49,22 @@ function App() {
       <NavBar
         theme={theme}
         onToggleTheme={handleToggleTheme}
+        selectedBranch={selectedBranch}
       />
 
       <Routes>
         <Route
           path="/"
-          element={<Home theme={theme} />}
+          element={
+            <Home
+              theme={theme}
+              selectedBranch={selectedBranch}
+              setSelectedBranch={setSelectedBranch}
+            />
+          }
         />
 
+        {/* All branch syllabi */}
         <Route
           path="/syllabus"
           element={<Syllabus theme={theme} />}
