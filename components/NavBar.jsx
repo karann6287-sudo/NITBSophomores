@@ -13,7 +13,7 @@ export default function NavBar({ theme, onToggleTheme }) {
         <div className="flex items-center justify-center md:justify-start space-x-3 w-full md:w-auto">
           <img
             src={manitLogo}
-            alt="Electrical Engineering MANIT"
+            alt="MANIT"
             className="h-9 w-9 md:h-11 md:w-11 rounded-full object-cover ring-2 ring-white/80 shadow-md shadow-black/20"
           />
 
