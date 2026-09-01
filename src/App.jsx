@@ -5,6 +5,7 @@ import Home from '../components/Home.jsx'
 import Footer from '../components/Footer.jsx'
 import SubjectPage from '../components/SubjectPage.jsx'
 import Syllabus from '../components/Syllabus.jsx'
+import OurTeam from '../components/OurTeam.jsx'
 import ResourceFolderPage from '../components/ResourceFolderPage.jsx'
 import PdfViewerPage from '../components/PdfViewerPage.jsx'
 
@@ -75,6 +76,12 @@ function App() {
         <Route
           path="/syllabus"
           element={<Syllabus theme={theme} />}
+        />
+
+        {/* Our Team */}
+        <Route
+          path="/our-team"
+          element={<OurTeam theme={theme} />}
         />
 
         {/* Branch → Semester → Subject */}

@@ -42,6 +42,14 @@ export default function NavBar({
             Syllabus
           </Link>
 
+          {/* Our Team */}
+          <Link
+            to="/our-team"
+            className="transition-colors text-white/90 hover:text-cyan-200"
+          >
+            Our Team
+          </Link>
+
           {/* Theme Toggle */}
           <button
             type="button"
