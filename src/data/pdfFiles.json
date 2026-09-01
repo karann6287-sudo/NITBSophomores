@@ -1623,7 +1623,383 @@
       "title": "Power System Syllabus",
       "url": "https://drive.google.com/file/d/1VPjB0RhwsUFyyq1zgdBqk47R_dtt6XML/view?usp=sharing",
       "branch": "ee"
-    }
+    },
+    {
+  "semester": "semester3",
+  "subject": "thermodynamics",
+  "term": "mid-terms",
+  "title": "Mid Term 2023-2024",
+  "url": "https://drive.google.com/file/d/1yaamx_CL1il7J3_Ijs6BVfPjuDGo5NFK/view?usp=sharing",
+  "branch": "me"
+    },
+    {
+    "semester": "semester3",
+    "subject": "material-science-and-engineering",
+    "term": "end-terms",
+    "title": "End Term 2022-2023",
+    "url": "https://drive.google.com/file/d/132XJvmH45EDJ7RCRF9M26g8OAYp7l4UD/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "material-science-and-engineering",
+    "term": "end-terms",
+    "title": "End Term 2023-2024",
+    "url": "https://drive.google.com/file/d/1Kt4ssDVCZ9LI0pHLti83Pw05FQ0m64cI/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "material-science-and-engineering",
+    "term": "mid-terms",
+    "title": "Mid Term 2022-2023",
+    "url": "https://drive.google.com/file/d/1MqULyVN24B6Bl1A8ioVLu44SvV6HJsEJ/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "fundamentals-of-entrepreneurship",
+    "term": "end-terms",
+    "title": "End Term 2023-2024",
+    "url": "https://drive.google.com/file/d/1eu89o160bnVKXex6ZQuZ4n1l61rW558L/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanics-of-materials",
+    "term": "end-terms",
+    "title": "End Term 2022-2023",
+    "url": "https://drive.google.com/file/d/1DhzeUSc94cYOElAPa2t59B0tyCObhXYa/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanics-of-materials",
+    "term": "end-terms",
+    "title": "End Term 2023-2024",
+    "url": "https://drive.google.com/file/d/1Kvof72WLNnK9R4RMxMmrnTkian0Bzycx/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanics-of-materials",
+    "term": "mid-terms",
+    "title": "Mid Term 2022-2023",
+    "url": "https://drive.google.com/file/d/12VtcYCN01dUHBF9QUgpnKRFg0ACG7bl2/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanics-of-materials",
+    "term": "mid-terms",
+    "title": "Mid Term 2023-2024",
+    "url": "https://drive.google.com/file/d/1wM53lon1TSCZFDVR9hswj6S74Q2EIR8n/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanisms-of-machines",
+    "term": "end-terms",
+    "title": "End Term 2023",
+    "url": "https://drive.google.com/file/d/19nUQ2P_bwMRTj_38n9MBMoo49Cca-yOL/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanisms-of-machines",
+    "term": "mid-terms",
+    "title": "Mid Term 2023",
+    "url": "https://drive.google.com/file/d/1du6yDTdVj7HyqvwgyfszmMgM0u_48g8H/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mathematics-3",
+    "term": "end-terms",
+    "title": "End Term 2022-2023",
+    "url": "https://drive.google.com/file/d/1002og3feI6rQG5I6Dm9MWokxGbAYbqRN/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mathematics-3",
+    "term": "mid-terms",
+    "title": "Mid Term 2022-2023",
+    "url": "https://drive.google.com/file/d/1pd3VgJBZmZR_gkOv-qyAzNoRoOJU8zty/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mathematics-3",
+    "term": "mid-terms",
+    "title": "Mid Term 2023-2024",
+    "url": "https://drive.google.com/file/d/1Kc92RkUEHLfs3pXV8ihWo7Rj1FgtANGj/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mathematics-3",
+    "term": "mini-tests",
+    "title": "Mini Test 2023-2024",
+    "url": "https://drive.google.com/file/d/16kptLM4TDpVN4YXteCcDIqEKmKCBvz1r/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "thermodynamics",
+    "term": "end-terms",
+    "title": "End Term 2022-2023",
+    "url": "https://drive.google.com/file/d/135-n87KvM858B3OUCxGCA1gRkW3AQH4w/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "thermodynamics",
+    "term": "end-terms",
+    "title": "End Term 2023-2024",
+    "url": "https://drive.google.com/file/d/18xpvzFMRWssDko0bEL-z6Qqe4VQnr6We/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "thermodynamics",
+    "term": "mid-terms",
+    "title": "Mid Term 2022-2023",
+    "url": "https://drive.google.com/file/d/1yaamx_CL1il7J3_Ijs6BVfPjuDGo5NFK/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "thermodynamics",
+    "term": "mid-terms",
+    "title": "Mid Term 2023-2024",
+    "url": "https://drive.google.com/file/d/1KnL_Ge4eQ3WGsSwDAaRVIxDi_3ymgF4B/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "manufacturing-processes-1",
+    "term": "end-terms",
+    "title": "End Term 2023",
+    "url": "https://drive.google.com/file/d/1TEEcFWJxYW1X2KVtKS4hjKvo1E89mvwS/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "manufacturing-processes-1",
+    "term": "mid-terms",
+    "title": "Mid Term 2023",
+    "url": "https://drive.google.com/file/d/1SkQ1Ol3rZlW68Ktl4MiBq9NiHet0o9_1/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-design",
+    "term": "end-terms",
+    "title": "End Term 2023",
+    "url": "https://drive.google.com/file/d/1Xuiej9zd1EXHsBRXtgs4umFeJXL-M-mU/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-design",
+    "term": "mid-terms",
+    "title": "Mid Term 2023",
+    "url": "https://drive.google.com/file/d/1oMnH-7JEK0TZGqELWrG2n4nmL4XL8Cwa/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "industrial-engineering-and-operations-research",
+    "term": "mini-tests",
+    "title": "Mini Test 2023",
+    "url": "https://drive.google.com/file/d/1b6UyZTbAUHb6UmZP5VemyzJJ3_AK3ihG/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "industrial-engineering-and-operations-research",
+    "term": "end-terms",
+    "title": "End Term 2023",
+    "url": "https://drive.google.com/file/d/17o1KR2hzfq9lSp11WFYjmFx3auZ0-4aK/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "industrial-engineering-and-operations-research",
+    "term": "mid-terms",
+    "title": "Mid Term 2023",
+    "url": "https://drive.google.com/file/d/1VCvd6mWHIPf_k6hIHGHCsznZFZ4cayBf/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-drawing",
+    "term": "end-terms",
+    "title": "End Term 2022-2023",
+    "url": "https://drive.google.com/file/d/1Gcfvo72Q0k1Wb_r09z7WKDtrgk31pM9-/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-drawing",
+    "term": "end-terms",
+    "title": "End Term 2023-2024",
+    "url": "https://drive.google.com/file/d/17n-FbGnn2xto17i90AQ45AOeIZ32PUUX/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-drawing",
+    "term": "mid-terms",
+    "title": "Mid Term 2022-2023",
+    "url": "https://drive.google.com/file/d/1r03XbAExAutjz7vT8niF4OKV50un7tKR/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-drawing",
+    "term": "mid-terms",
+    "title": "Mid Term 2023-2024",
+    "url": "https://drive.google.com/file/d/1ILCeWO_iHUzFWBU7I5xHDgL0EAmjqIyX/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-drawing",
+    "term": "mini-tests",
+    "title": "Mini Test 2022-2023",
+    "url": "https://drive.google.com/file/d/1mnN4YkQKFD7qJxqAgCdTRNG3LrEzem7V/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "machine-drawing",
+    "term": "mini-tests",
+    "title": "Mini Test 2023-2024",
+    "url": "https://drive.google.com/file/d/1wGYl6HGG8wZwdjyT1RVFIfLAfRuYnoWL/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "fundamentals-of-design",
+    "term": "end-terms",
+    "title": "End Term 2023",
+    "url": "https://drive.google.com/file/d/1DwZ1_i9NVVW1_Jo1cEoz94rb-Tjn3eXf/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "fundamentals-of-design",
+    "term": "mid-terms",
+    "title": "Mid Term 2023",
+    "url": "https://drive.google.com/file/d/1b5T8sjmYkt7v9kpIhFI2CbnYBczvZgZQ/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "mathematics-iv",
+    "term": "end-terms",
+    "title": "End Term 2023",
+    "url": "https://drive.google.com/file/d/1roiDMkGsMCqk51jPhFticqdhH-0Jql83/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "mathematics-iv",
+    "term": "mid-terms",
+    "title": "Mid Term 2023",
+    "url": "https://drive.google.com/file/d/1jU1LhbteuFKIXiHLQ_1tzsVKOQJHa1A9/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester4",
+    "subject": "mathematics-iv",
+    "term": "assignments",
+    "title": "Assignment 2023-2024",
+    "url": "https://drive.google.com/file/d/1-7LHV6II8m3yYnhNMs4sf5LTaY7zyGRd/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanics-of-materials-lab",
+    "term": "experiments",
+    "title": "Lab Manual",
+    "url": "https://drive.google.com/file/d/15256Up8cdtxjIjEO_h2E94tY3upKtdbZ/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "mechanisms-of-machines-lab",
+    "term": "experiments",
+    "title": "Lab Manual",
+    "url": "https://drive.google.com/file/d/15256Up8cdtxjIjEO_h2E94tY3upKtdbZ/view?usp=sharing",
+    "branch": "me"
+  },
+   {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "Course Material on Entrepreneurship Developement",
+    "url": "https://drive.google.com/file/d/1sHE3GfuGFycMpgyBz9kmVJtHrMt87j8O/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "ENTREPRENEURSHIP",
+    "url": "https://drive.google.com/file/d/1NitbvB9CxXBtpern4seV-evf8NuHc8DO/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "Entrepreneurship_Development by Dr Ullas Chandra Das",
+    "url": "https://drive.google.com/file/d/1r-hlUjWU3akNLxOQ7C_CWcIIUMYrllIm/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "Factore Influncing",
+    "url": "https://drive.google.com/file/d/1F4o2EC0kH-BMGtQ1hFwXCaBC9jZy0W55/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "nano ganesh and lijat papad case stdies fcators MSMEand types-3",
+    "url": "https://drive.google.com/file/d/1762i6rFTvM80yRp3dRTb-yFFs9XqI4QZ/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "Ratan tata and maslow-2",
+    "url": "https://drive.google.com/file/d/1Qra8xbycMlcAwNmhuW6Qbya7H0Ru4FCo/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "Self -Actulization factors",
+    "url": "https://drive.google.com/file/d/1_457rqBP2SP7MsrVc0LtXdlsbzvIG0bJ/view?usp=sharing",
+    "branch": "me"
+  },
+  {
+    "semester": "semester3",
+    "subject": "foe",
+    "term": "notes",
+    "title": "Unit 1 Social Entrepreneurship, Women Entrepreneurship, and Tourism Entrepreneurship",
+    "url": "https://drive.google.com/file/d/1QRAyE1g6qu2umfP7_hQx2A2PwL846r9A/view?usp=sharing",
+    "branch": "me"
+  }
   ]
 }
   

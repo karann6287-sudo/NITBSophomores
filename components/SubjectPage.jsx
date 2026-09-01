@@ -1,82 +1,46 @@
 import React, { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { getSubjectResourceTerms } from '../src/resourceLibrary.js'
+import { branchData } from '../src/data/branchData.js'
 
-export const subjectData = {
-  semester3: {
-    dsa: {
-      title: 'DSA',
-      kind: 'regular',
-    },
-    'mathematics-3': {
-      title: 'Mathematics 3',
-      kind: 'regular',
-    },
-    emec: {
-      title: 'EMEC',
-      kind: 'regular',
-    },
-    emft: {
-      title: 'EMFT',
-      kind: 'regular',
-    },
-    'network-analysis': {
-      title: 'NETWORK ANALYSIS',
-      kind: 'regular',
-    },
-    'measurement-and-instrumentation': {
-      title: 'Measurement and Instrumentation',
-      kind: 'regular',
-    },
-    'instrumentation-lab': {
-      title: 'Instrumentation Lab',
-      kind: 'lab',
-    },
-    'emec-lab': {
-      title: 'EMEC Lab',
-      kind: 'lab',
-    },
-    'network-lab': {
-      title: 'Network Lab',
-      kind: 'lab',
-    },
-  },
-
-  semester4: {
-    'mathematics-4': {
-      title: 'Mathematics 4',
-      kind: 'regular',
-    },
-    'power-systems': {
-      title: 'Power Systems',
-      kind: 'regular',
-    },
-    'electronic-devices-and-systems': {
-      title: 'Electronic Devices and Systems',
-      kind: 'regular',
-    },
-    'emec-2': {
-      title: 'EMEC-2',
-      kind: 'regular',
-    },
-    'generation-of-electrical-power': {
-      title: 'Generation of Electrical Power',
-      kind: 'regular',
-    },
-    'fundamentals-of-entrepreneurship': {
-      title: 'Fundamentals of Entrepreneurship',
-      kind: 'regular',
-    },
-    'emec-2-lab': {
-      title: 'EMEC-2 LAB',
-      kind: 'lab',
-    },
-    'electronics-lab': {
-      title: 'Electronics Lab',
-      kind: 'lab',
-    },
-  },
+function makeSlug(name) {
+  return name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
 }
+
+/*
+ * Compatibility export.
+ * Other pages currently import subjectData from this file.
+ * It is generated automatically from branchData.
+ */
+export const subjectData = {}
+
+Object.entries(branchData).forEach(
+  ([branchSlug, branch]) => {
+    subjectData[branchSlug] = {}
+
+    Object.entries(branch.semesters || {}).forEach(
+      ([semester, subjects]) => {
+        subjectData[branchSlug][semester] = {}
+
+        subjects.forEach((subjectName) => {
+          const slug = makeSlug(subjectName)
+
+          subjectData[branchSlug][semester][slug] = {
+            title: subjectName,
+            kind: subjectName
+              .toLowerCase()
+              .includes('lab')
+              ? 'lab'
+              : 'regular',
+          }
+        })
+      }
+    )
+  }
+)
 
 export default function SubjectPage({ theme }) {
   const isDark = theme === 'dark'
@@ -87,9 +51,31 @@ export default function SubjectPage({ theme }) {
     subjectSlug,
   } = useParams()
 
+  const branchInfo = branchData[branch]
+
   const subject = useMemo(() => {
-    return subjectData[semester]?.[subjectSlug]
-  }, [semester, subjectSlug])
+    if (!branchInfo) {
+      return null
+    }
+
+    const subjects =
+      branchInfo.semesters?.[semester] || []
+
+    const subjectName = subjects.find(
+      (name) => makeSlug(name) === subjectSlug
+    )
+
+    if (!subjectName) {
+      return null
+    }
+
+    return {
+      title: subjectName,
+      kind: subjectName.toLowerCase().includes('lab')
+        ? 'lab'
+        : 'regular',
+    }
+  }, [branchInfo, semester, subjectSlug])
 
   const resourceGroups = useMemo(() => {
     if (!subject) {
@@ -101,7 +87,7 @@ export default function SubjectPage({ theme }) {
       semester,
       subjectSlug
     )
-  }, [branch, semester, subject, subjectSlug])
+  }, [branch, semester, subjectSlug, subject])
 
   if (!subject) {
     return (
@@ -134,6 +120,13 @@ export default function SubjectPage({ theme }) {
     )
   }
 
+  const semesterLabel =
+    semester === 'semester3'
+      ? 'Semester 3'
+      : semester === 'semester4'
+        ? 'Semester 4'
+        : semester
+
   return (
     <main
       className={`min-h-screen px-6 py-14 transition-colors ${
@@ -159,10 +152,7 @@ export default function SubjectPage({ theme }) {
                     : 'text-sky-700'
                 }`}
               >
-                {semester === 'semester3'
-                  ? 'Semester 3'
-                  : 'Semester 4'}{' '}
-                Subject Resources
+                {semesterLabel} Subject Resources
               </p>
 
               <h1 className="mt-3 text-3xl md:text-5xl font-extrabold leading-tight">
@@ -183,31 +173,43 @@ export default function SubjectPage({ theme }) {
           </div>
 
           <section className="mt-10">
-            <div className="mt-6 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-              {resourceGroups.map((group) => (
-                <Link
-                  key={group.slug ?? group.title}
-                  to={`/subjects/${branch}/${semester}/${subjectSlug}/${group.slug}`}
-                  className={`group rounded-3xl border p-4 shadow-sm transition-transform duration-200 hover:-translate-y-1 ${
-                    isDark
-                      ? 'border-slate-700 bg-slate-900'
-                      : 'border-slate-200 bg-white'
-                  }`}
-                >
-                  <div className="flex h-full items-center justify-center rounded-2xl p-6 text-center">
-                    <p
-                      className={`text-base font-semibold uppercase tracking-[0.24em] ${
-                        isDark
-                          ? 'text-sky-300'
-                          : 'text-sky-700'
-                      }`}
-                    >
-                      {group.label ?? group.title}
-                    </p>
-                  </div>
-                </Link>
-              ))}
-            </div>
+            {resourceGroups.length > 0 ? (
+              <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                {resourceGroups.map((group) => (
+                  <Link
+                    key={group.slug}
+                    to={`/subjects/${branch}/${semester}/${subjectSlug}/${group.slug}`}
+                    className={`group rounded-3xl border p-4 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-lg ${
+                      isDark
+                        ? 'border-slate-700 bg-slate-900'
+                        : 'border-slate-200 bg-white'
+                    }`}
+                  >
+                    <div className="flex h-full items-center justify-center rounded-2xl p-6 text-center">
+                      <p
+                        className={`text-base font-semibold uppercase tracking-[0.24em] ${
+                          isDark
+                            ? 'text-sky-300'
+                            : 'text-sky-700'
+                        }`}
+                      >
+                        {group.label}
+                      </p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            ) : (
+              <div
+                className={`rounded-3xl border p-8 text-center ${
+                  isDark
+                    ? 'border-slate-700 bg-slate-900 text-slate-400'
+                    : 'border-slate-200 bg-slate-50 text-gray-500'
+                }`}
+              >
+                No resources available yet.
+              </div>
+            )}
           </section>
         </div>
       </div>
