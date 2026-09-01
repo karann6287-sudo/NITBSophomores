@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { branchData } from '../src/data/branchData.js'
 
@@ -9,8 +9,14 @@ export default function Home({
 }) {
   const isDark = theme === 'dark'
 
-  const [selectedSemester, setSelectedSemester] =
-    useState('semester3')
+  const [selectedSemester, setSelectedSemester] = useState(() => {
+    const storedSemester = localStorage.getItem(`semester_${selectedBranch}`)
+    return storedSemester || 'semester3'
+  })
+
+  useEffect(() => {
+    localStorage.setItem(`semester_${selectedBranch}`, selectedSemester)
+  }, [selectedSemester, selectedBranch])
 
   const branch = branchData[selectedBranch]
 
@@ -183,6 +189,21 @@ export default function Home({
               )
             })}
           </div>
+
+          {/* Credits - ME Only */}
+          {selectedBranch === 'me' && (
+            <div className="mt-6 text-right">
+              <p
+                className={`text-xs md:text-sm ${
+                  isDark
+                    ? 'text-slate-500'
+                    : 'text-gray-500'
+                }`}
+              >
+                Credits - Aashi Patel (NITB'29)
+              </p>
+            </div>
+          )}
         </div>
 
         {/* Resource Contribution */}

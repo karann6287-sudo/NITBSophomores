@@ -21,7 +21,14 @@ function App() {
       : 'light'
   })
 
-  const [selectedBranch, setSelectedBranch] = useState('ee')
+  const [selectedBranch, setSelectedBranch] = useState(() => {
+    const storedBranch = localStorage.getItem('selectedBranch')
+    return storedBranch || 'ee'
+  })
+
+  useEffect(() => {
+    localStorage.setItem('selectedBranch', selectedBranch)
+  }, [selectedBranch])
 
   useEffect(() => {
     localStorage.setItem('theme', theme)
