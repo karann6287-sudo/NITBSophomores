@@ -26,54 +26,71 @@ export default function OurTeam({ theme }) {
     >
       <section
         id="our-team"
-        className="max-w-6xl mx-auto px-6 py-14"
+        className="flex flex-col items-center justify-center px-4 md:px-6 py-8 md:py-12"
       >
+        {/* Heading */}
+        <div className="mb-6 md:mb-8 text-center">
+          <h1 className="text-3xl md:text-4xl font-bold tracking-widest letter-spacing-2">
+            TEAM KARAN VERMA
+          </h1>
+          <div className={`mt-2 h-0.5 w-20 mx-auto ${
+            isDark ? 'bg-slate-700' : 'bg-slate-300'
+          }`}></div>
+        </div>
+
+        {/* Credits Panel */}
         <div
-          className={`rounded-4xl shadow-2xl border p-7 md:p-10 ${
+          className={`w-full max-w-2xl rounded-2xl border backdrop-blur-sm transition-all ${
             isDark
-              ? 'bg-slate-800 border-slate-700'
-              : 'bg-white border-slate-200'
+              ? 'bg-slate-800/60 border-slate-700/50 shadow-2xl shadow-black/30'
+              : 'bg-white/70 border-slate-200/60 shadow-xl shadow-slate-400/10'
           }`}
         >
-          {/* Heading */}
-          <div className="mb-12 text-center">
-            <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-              TEAM KARAN VERMA
-            </h1>
-          </div>
-
-          {/* Credits Table */}
-          <div className="space-y-4">
-            {credits.map((item, index) => (
-              <div
-                key={index}
-                className={`grid grid-cols-2 gap-4 md:gap-8 pb-4 border-b ${
-                  isDark
-                    ? 'border-slate-700'
-                    : 'border-slate-200'
-                } ${
-                  index === credits.length - 1
-                    ? 'border-b-0'
-                    : ''
-                }`}
-              >
-                {/* Role */}
+          {/* Credits Container */}
+          <div className="px-6 md:px-10 py-7 md:py-9">
+            <div className="space-y-0">
+              {credits.map((item, index) => (
                 <div
-                  className={`text-sm md:text-base font-medium tracking-wide ${
-                    isDark
-                      ? 'text-slate-300'
-                      : 'text-gray-600'
+                  key={index}
+                  className={`flex items-center justify-between py-2.5 md:py-3 ${
+                    index < credits.length - 1 ? (
+                      isDark
+                        ? 'border-b border-slate-700/40'
+                        : 'border-b border-slate-200/50'
+                    ) : ''
                   }`}
                 >
-                  {item.role}
-                </div>
+                  {/* Role - Left Column */}
+                  <div
+                    className={`flex-1 text-xs md:text-sm font-medium tracking-wide uppercase ${
+                      isDark
+                        ? 'text-slate-300'
+                        : 'text-slate-700'
+                    }`}
+                  >
+                    {item.role}
+                  </div>
 
-                {/* Credit */}
-                <div className="text-sm md:text-base font-semibold text-right">
-                  {item.credit}
+                  {/* Separator Dots */}
+                  <div className={`px-3 ${
+                    isDark ? 'text-slate-600' : 'text-slate-300'
+                  }`}>
+                    <span className="text-base font-light">·</span>
+                  </div>
+
+                  {/* Credit - Right Column */}
+                  <div
+                    className={`flex-1 text-xs md:text-sm font-semibold tracking-wide text-right uppercase ${
+                      isDark
+                        ? 'text-slate-100'
+                        : 'text-slate-900'
+                    }`}
+                  >
+                    {item.credit}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
