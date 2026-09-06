@@ -53,4 +53,18 @@ export const branchData = {
    
   },
 },
+mds:{
+    name: "Mathematics and Data Science",
+    semesters: {
+      semester3: [
+        'Abstract Algebra',
+        'Discrete Mathematics',
+        'Computer Architecture',
+        'Data Structures and Algorithms',
+        'FOE',
+        'Operating Systems',
+        'Java Lab',
+      ],
+    },
+  },
 }
