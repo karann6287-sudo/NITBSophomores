@@ -13,6 +13,7 @@ export const branchData = {
         'Instrumentation Lab',
         'EMEC Lab',
         'Network Lab',
+        'PYQs 2026'
       ],
 
       semester4: [
@@ -41,6 +42,7 @@ export const branchData = {
         'Material Characterization Lab',
         'Mechanics of materials Lab',
         'Mechanisms of machines Lab',
+        'PYQs 2026'
       ],
       semester4: [
         'Fundamentals of Design',

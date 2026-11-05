@@ -13,6 +13,7 @@ const preferredTermDefinitions = [
   { slug: 'notes', label: 'Notes' },
   { slug: 'assignments', label: 'Assignments' },
   { slug: 'experiments', label: 'Experiments' },
+  { slug: 'pyqs-2026', label: 'PYQs 2026' },
 ]
 
 function getFiles(branch, semester, subjectSlug, termSlug) {
