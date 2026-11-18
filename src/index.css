@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+@keyframes maintenance-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes maintenance-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.maintenance-float {
+  animation: maintenance-float 6s ease-in-out infinite;
+}
+
+.maintenance-fade,
+.maintenance-fade-delayed {
+  animation: maintenance-fade-in 700ms ease-out both;
+}
+
+.maintenance-fade-delayed {
+  animation-delay: 140ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .maintenance-float,
+  .maintenance-fade,
+  .maintenance-fade-delayed {
+    animation: none;
+  }
+}

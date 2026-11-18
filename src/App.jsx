@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from '../components/NavBar.jsx'
 import Home from '../components/Home.jsx'
@@ -7,6 +7,8 @@ import SubjectPage from '../components/SubjectPage.jsx'
 import Syllabus from '../components/Syllabus.jsx'
 import ResourceFolderPage from '../components/ResourceFolderPage.jsx'
 import PdfViewerPage from '../components/PdfViewerPage.jsx'
+import Maintenance from './Maintenance.jsx'
+import { MAINTENANCE_MODE } from './maintenanceConfig.js'
 
 function App() {
   const [theme, setTheme] = useState(() => {
@@ -49,6 +51,10 @@ function App() {
     setTheme((currentTheme) =>
       currentTheme === 'dark' ? 'light' : 'dark'
     )
+  }
+
+  if (MAINTENANCE_MODE) {
+    return <Maintenance />
   }
 
   return (
