@@ -56,11 +56,33 @@ function jsonResponse(statusCode, message, extraHeaders = {}) {
   }
 }
 
+function logLocalPdfError(reason) {
+  const isLocal =
+    process.env.NETLIFY_DEV === 'true' ||
+    process.env.CONTEXT === 'dev'
+
+  if (isLocal) {
+    console.error(`[pdf] ${reason}`)
+  }
+}
+
+function logLocalStage(stage, status) {
+  const isLocal =
+    process.env.NETLIFY_DEV === 'true' ||
+    process.env.CONTEXT === 'dev'
+
+  if (isLocal) {
+    const statusText =
+      Number.isInteger(status) ? ` status=${status}` : ''
+    console.error(`[pdf] stage=${stage}${statusText}`)
+  }
+}
+
 function parseServiceAccountJson() {
   const raw = process.env.GOOGLE_SERVICE_ACCOUNT_JSON
 
   if (!raw) {
-    throw new Error('Missing Google service account configuration')
+    throw new Error('Missing GOOGLE_SERVICE_ACCOUNT_JSON')
   }
 
   let credentials
@@ -73,7 +95,7 @@ function parseServiceAccountJson() {
         Buffer.from(raw, 'base64').toString('utf8')
       )
     } catch {
-      throw new Error('Invalid Google service account configuration')
+      throw new Error('Invalid GOOGLE_SERVICE_ACCOUNT_JSON')
     }
   }
 
@@ -81,7 +103,7 @@ function parseServiceAccountJson() {
     typeof credentials.client_email !== 'string' ||
     typeof credentials.private_key !== 'string'
   ) {
-    throw new Error('Invalid Google service account configuration')
+    throw new Error('Invalid GOOGLE_SERVICE_ACCOUNT_JSON')
   }
 
   credentials.private_key = credentials.private_key.replace(/\\n/g, '\n')
@@ -150,10 +172,10 @@ async function getFileMetadata(fileId, accessToken) {
   })
 
   if (!response.ok) {
-    return null
+    return { metadata: null, status: response.status }
   }
 
-  return response.json()
+  return { metadata: await response.json(), status: response.status }
 }
 
 export async function handler(event) {
@@ -188,21 +210,40 @@ export async function handler(event) {
 
   try {
     accessToken = await getAccessToken()
-  } catch {
+  } catch (error) {
+    const reason =
+      error instanceof Error ? error.message : 'Authentication failed'
+
+    logLocalStage(
+      reason === 'Missing GOOGLE_SERVICE_ACCOUNT_JSON'
+        ? 'config-missing'
+        : reason === 'Invalid GOOGLE_SERVICE_ACCOUNT_JSON'
+          ? 'config-invalid'
+          : 'oauth-token'
+    )
+    logLocalPdfError(reason)
     return jsonResponse(503, 'PDF service unavailable')
   }
 
   if (!accessToken) {
+    logLocalStage('oauth-token')
     return jsonResponse(503, 'PDF service unavailable')
   }
 
-  let metadata
+  let metadataResult
 
   try {
-    metadata = await getFileMetadata(fileId, accessToken)
+    metadataResult = await getFileMetadata(fileId, accessToken)
   } catch {
+    logLocalStage('drive-metadata-network')
     return jsonResponse(502, 'Unable to retrieve PDF')
   }
+
+  if (!metadataResult.metadata) {
+    logLocalStage('drive-metadata', metadataResult.status)
+  }
+
+  const metadata = metadataResult.metadata
 
   if (!metadata) {
     return jsonResponse(404, 'PDF not found')
@@ -275,7 +316,12 @@ export async function handler(event) {
       redirect: 'follow',
     })
   } catch {
+    logLocalStage('drive-media-network')
     return jsonResponse(502, 'Unable to retrieve PDF')
+  }
+
+  if (upstream.status !== 200 && upstream.status !== 206) {
+    logLocalStage('drive-media', upstream.status)
   }
 
   if (upstream.status === 404) {

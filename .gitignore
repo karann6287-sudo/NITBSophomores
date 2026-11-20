@@ -25,4 +25,8 @@ dist-ssr
 
 .env
 .env.*
+!.env.example
 service-account*.json
+
+# Local Netlify folder
+.netlify

@@ -2,12 +2,45 @@ import React, { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { getSubjectResourceTerm } from '../src/resourceLibrary.js'
 import { branchData } from '../src/data/branchData.js'
+import PdfViewer from '../src/components/PdfViewer.jsx'
 
 function makeSlug(name) {
   return name
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
+}
+
+function extractGoogleDriveFileId(rawUrl) {
+  try {
+    const parsedUrl = new URL(rawUrl)
+
+    if (parsedUrl.hostname !== 'drive.google.com') {
+      return null
+    }
+
+    let fileId = null
+
+    if (parsedUrl.pathname.startsWith('/file/d/')) {
+      fileId = parsedUrl.pathname.split('/')[3] || null
+    } else if (
+      parsedUrl.pathname === '/open' ||
+      parsedUrl.pathname === '/uc'
+    ) {
+      fileId = parsedUrl.searchParams.get('id')
+    }
+
+    if (
+      !fileId ||
+      !/^[A-Za-z0-9_-]+$/.test(fileId)
+    ) {
+      return null
+    }
+
+    return fileId
+  } catch {
+    return null
+  }
 }
 
 export default function PdfViewerPage({ theme }) {
@@ -152,19 +185,32 @@ export default function PdfViewerPage({ theme }) {
     )
   }
 
-  /*
-   * Convert Google Drive sharing URL:
-   *
-   * /view?usp=sharing
-   *
-   * into:
-   *
-   * /preview
-   */
-  const previewUrl = file.url.replace(
-    '/view?usp=sharing',
-    '/preview'
-  )
+  const fileId = extractGoogleDriveFileId(file.url)
+  const proxyUrl = fileId
+    ? `/.netlify/functions/pdf?id=${encodeURIComponent(fileId)}`
+    : null
+
+  if (!proxyUrl) {
+    return (
+      <main
+        className={`min-h-screen flex items-center justify-center px-6 ${
+          isDark
+            ? 'bg-slate-900 text-slate-100'
+            : 'bg-gray-50 text-gray-900'
+        }`}
+      >
+        <div
+          className={`rounded-3xl border p-8 text-center ${
+            isDark
+              ? 'border-slate-700 bg-slate-800'
+              : 'border-slate-200 bg-white'
+          }`}
+        >
+          <h1 className="text-2xl font-bold">Invalid PDF URL</h1>
+        </div>
+      </main>
+    )
+  }
 
   return (
     <main
@@ -174,12 +220,11 @@ export default function PdfViewerPage({ theme }) {
           : 'bg-gray-50 text-gray-900'
       }`}
     >
-      {/* PDF */}
-      <iframe
+      <PdfViewer
+        key={proxyUrl}
+        url={proxyUrl}
         title={file.fileName}
-        src={previewUrl}
-        className="w-full h-[calc(100vh-64px)]"
-        allow="autoplay"
+        theme={theme}
       />
     </main>
   )
