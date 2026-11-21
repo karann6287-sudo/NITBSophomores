@@ -12,6 +12,7 @@ function PdfViewer({ url, title, theme = 'light' }) {
   const [loadProgress, setLoadProgress] = useState(null)
   const [retryKey, setRetryKey] = useState(0)
   const [readyToLoad, setReadyToLoad] = useState(false)
+  const [mediaType, setMediaType] = useState(null)
   const [containerWidth, setContainerWidth] = useState(800)
   const [zoom, setZoom] = useState(1)
   const [fitToWidth, setFitToWidth] = useState(true)
@@ -25,15 +26,6 @@ function PdfViewer({ url, title, theme = 'light' }) {
   }, [url])
 
   useEffect(() => {
-    setReadyToLoad(false)
-    setPageNumber(1)
-    setNumPages(null)
-    setLoadError(null)
-    setLoadProgress(null)
-    setZoom(1)
-    setFitToWidth(true)
-    pageRefs.current = {}
-
     let secondFrame = null
     const firstFrame = window.requestAnimationFrame(() => {
       secondFrame = window.requestAnimationFrame(() => {
@@ -48,6 +40,36 @@ function PdfViewer({ url, title, theme = 'light' }) {
       }
     }
   }, [url])
+
+  useEffect(() => {
+    if (!source) {
+      return undefined
+    }
+
+    const controller = new AbortController()
+
+    fetch(source, {
+      method: 'HEAD',
+      signal: controller.signal,
+    })
+      .then((response) => {
+        if (response.ok) {
+          setMediaType(
+            response.headers.get('content-type')?.split(';')[0].trim().toLowerCase() ||
+            null
+          )
+        } else {
+          setLoadError(new Error(`PDF response: ${response.status}`))
+        }
+      })
+      .catch((error) => {
+        if (!controller.signal.aborted) {
+          setLoadError(error)
+        }
+      })
+
+    return () => controller.abort()
+  }, [source])
 
   useEffect(() => {
     const area = documentAreaRef.current
@@ -175,7 +197,7 @@ function PdfViewer({ url, title, theme = 'light' }) {
 
     window.addEventListener('keydown', handleKeyDown)
     return () => window.removeEventListener('keydown', handleKeyDown)
-  }, [numPages, pageNumber])
+  }, [numPages, pageNumber, scrollToPage])
 
   const previousPage = useCallback(() => {
     scrollToPage(Math.max(1, pageNumber - 1))
@@ -314,6 +336,15 @@ function PdfViewer({ url, title, theme = 'light' }) {
                 <p className="mt-4 text-sm font-semibold">Loading PDF...</p>
               </div>
             </div>
+          </div>
+        ) : mediaType?.startsWith('image/') ? (
+          <div className="flex min-h-full items-center justify-center overflow-auto">
+            <img
+              src={source}
+              alt={title || 'PYQ image'}
+              className="max-h-[calc(100vh-180px)] max-w-full rounded-sm object-contain shadow-2xl"
+              onError={() => setLoadError(new Error('Unable to load PYQ image'))}
+            />
           </div>
         ) : (
           <div className="flex min-h-full min-w-max justify-center">

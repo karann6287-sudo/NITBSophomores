@@ -6,6 +6,12 @@ const DRIVE_ID_PATTERN = /^[A-Za-z0-9_-]+$/
 const DRIVE_URL_PATTERN =
   /^https:\/\/drive\.google\.com\/file\/d\/([^/?]+)\/(?:view|edit|preview)(?:\?.*)?$/
 const DEFAULT_MAX_BYTES = 50 * 1024 * 1024
+const ALLOWED_IMAGE_TYPES = new Set([
+  'image/jpeg',
+  'image/png',
+  'image/webp',
+  'image/gif',
+])
 
 function extractDriveFileId(url) {
   if (typeof url !== 'string') {
@@ -139,6 +145,26 @@ function isValidContentRange(contentRange) {
   return /^bytes \d+-\d+\/(?:\d+|\*)$/i.test(contentRange || '')
 }
 
+function sliceRequestedRange(bytes, range) {
+  if (!range || !Number.isSafeInteger(bytes.length)) {
+    return null
+  }
+
+  const start = Math.min(range.start, bytes.length)
+  const end = range.end === null
+    ? Math.min(bytes.length - 1, start + 1024 * 1024 - 1)
+    : Math.min(range.end, bytes.length - 1)
+
+  if (start > end) {
+    return null
+  }
+
+  return {
+    bytes: bytes.slice(start, end + 1),
+    contentRange: `bytes ${start}-${end}/${bytes.length}`,
+  }
+}
+
 function getMaxBytes() {
   const configured = Number(process.env.PDF_PROXY_MAX_BYTES)
   return Number.isSafeInteger(configured) && configured > 0
@@ -251,7 +277,8 @@ export async function handler(event) {
 
   if (
     metadata.mimeType &&
-    metadata.mimeType !== 'application/pdf'
+    metadata.mimeType !== 'application/pdf' &&
+    !ALLOWED_IMAGE_TYPES.has(metadata.mimeType)
   ) {
     return jsonResponse(404, 'PDF not found')
   }
@@ -266,11 +293,20 @@ export async function handler(event) {
   }
 
   if (event.httpMethod === 'HEAD') {
+    const contentType =
+      metadata.mimeType && (
+        metadata.mimeType === 'application/pdf' ||
+        ALLOWED_IMAGE_TYPES.has(metadata.mimeType)
+      )
+        ? metadata.mimeType
+        : 'application/pdf'
+
     const headers = {
-      'Content-Type': 'application/pdf',
+      'Content-Type': contentType,
       'Cache-Control': 'private, no-store, max-age=0',
       'X-Content-Type-Options': 'nosniff',
       'Content-Disposition': 'inline',
+      'Accept-Ranges': 'bytes',
     }
 
     if (metadata.size) {
@@ -352,7 +388,11 @@ export async function handler(event) {
     return jsonResponse(413, 'PDF exceeds the download size limit')
   }
 
-  if (upstream.status === 200 && bytes.length >= 5) {
+  if (
+    upstream.status === 200 &&
+    metadata.mimeType === 'application/pdf' &&
+    bytes.length >= 5
+  ) {
     const prefix = String.fromCharCode(...bytes.slice(0, 5))
     if (prefix !== '%PDF-') {
       return jsonResponse(502, 'Unable to retrieve PDF')
@@ -360,28 +400,26 @@ export async function handler(event) {
   }
 
   const contentType =
-    upstream.headers.get('content-type') ||
-    'application/pdf'
-
-  if (
-    contentType.split(';')[0].trim().toLowerCase() !== 'application/pdf'
-  ) {
-    return jsonResponse(502, 'Unable to retrieve PDF')
-  }
+    metadata.mimeType &&
+      (metadata.mimeType === 'application/pdf' ||
+        ALLOWED_IMAGE_TYPES.has(metadata.mimeType))
+      ? metadata.mimeType
+      : upstream.headers.get('content-type')?.split(';')[0].trim().toLowerCase()
+        || 'application/pdf'
 
   const baseHeaders = {
-    'Content-Type': 'application/pdf',
+    'Content-Type': contentType,
     'Content-Length': String(bytes.length),
     'Cache-Control': 'private, no-store, max-age=0',
     'X-Content-Type-Options': 'nosniff',
     'Content-Disposition': 'inline',
+    'Accept-Ranges': 'bytes',
   }
 
   if (
     upstream.status === 206 &&
     isValidContentRange(upstream.headers.get('content-range'))
   ) {
-    baseHeaders['Accept-Ranges'] = 'bytes'
     baseHeaders['Content-Range'] =
       upstream.headers.get('content-range')
 
@@ -390,6 +428,25 @@ export async function handler(event) {
       isBase64Encoded: true,
       headers: baseHeaders,
       body: Buffer.from(bytes).toString('base64'),
+    }
+  }
+
+  if (range) {
+    const ranged = sliceRequestedRange(bytes, range)
+
+    if (!ranged) {
+      return jsonResponse(416, 'Range not satisfiable')
+    }
+
+    baseHeaders['Content-Length'] =
+      String(ranged.bytes.length)
+    baseHeaders['Content-Range'] = ranged.contentRange
+
+    return {
+      statusCode: 206,
+      isBase64Encoded: true,
+      headers: baseHeaders,
+      body: Buffer.from(ranged.bytes).toString('base64'),
     }
   }
 
